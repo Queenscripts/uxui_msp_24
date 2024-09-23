@@ -207,8 +207,13 @@ const navigation = (): VerticalNavItemsType => {
       openInNewTab: true,
       subject: "teacher"
     },
- 
-
+    {
+      title: 'TA: Omotola',
+      icon: LocalLibraryIcon,
+      path: 'https://www.linkedin.com/in/omotola-a-8a8762228',
+      openInNewTab: true,
+      subject: "TA"
+    },
     // {
     //   sectionTitle: 'Pages'
     // },
