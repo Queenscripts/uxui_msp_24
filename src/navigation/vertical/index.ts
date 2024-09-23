@@ -26,123 +26,124 @@ const navigation = (): VerticalNavItemsType => {
       icon: HomeOutline,
       path: '/'
     },
-    {
-      sectionTitle: 'Previous Weeks'
-    },{
-      title: 'Week 22-24:Final Group Project',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/22-24',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 21:Web Tech',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/21',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 20:Bootstrap',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/20',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 19:JS & JQuery',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/19',
-      openInNewTab: false
-    },{
-      title: 'Week 18: Advanced CSS',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/18',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 17: Intro to Front End Development',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/17',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 16: Portfolio & Case Studies',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/16',
-      openInNewTab: false
-    },{
-      title: 'Week 13-15: Nonprofit Group Project',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/13-15',
-      openInNewTab: false
-    },{
-      title: 'Week 12: Advanced UI',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/12',
-      openInNewTab: false
-    },{
-      title: 'Week 11: Responsive Web Design',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/11',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 10: Interaction Design',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/10',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 9: Information Architecture',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/9',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 8: UI Design',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/8',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 5-7: Group Project',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/5-7',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 4: Mid-Fidelity Prototyping',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/4',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 3: Low-Fi Prototyping',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/3',
-      openInNewTab: false
-    },
-    {
-      title: 'Week 2: UX + Design Thinking: Definition, Ideation, UX Storytelling',
-      subject:"11",
-      icon: SchoolIcon,
-      path: '/week/2',
-      openInNewTab: false
-    },
+    // {
+    //   sectionTitle: 'Previous Weeks'
+    // },
+    // {
+    //   title: 'Week 22-24:Final Group Project',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/22-24',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 21:Web Tech',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/21',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 20:Bootstrap',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/20',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 19:JS & JQuery',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/19',
+    //   openInNewTab: false
+    // },{
+    //   title: 'Week 18: Advanced CSS',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/18',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 17: Intro to Front End Development',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/17',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 16: Portfolio & Case Studies',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/16',
+    //   openInNewTab: false
+    // },{
+    //   title: 'Week 13-15: Nonprofit Group Project',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/13-15',
+    //   openInNewTab: false
+    // },{
+    //   title: 'Week 12: Advanced UI',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/12',
+    //   openInNewTab: false
+    // },{
+    //   title: 'Week 11: Responsive Web Design',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/11',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 10: Interaction Design',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/10',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 9: Information Architecture',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/9',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 8: UI Design',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/8',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 5-7: Group Project',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/5-7',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 4: Mid-Fidelity Prototyping',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/4',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 3: Low-Fi Prototyping',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/3',
+    //   openInNewTab: false
+    // },
+    // {
+    //   title: 'Week 2: UX + Design Thinking: Definition, Ideation, UX Storytelling',
+    //   subject:"11",
+    //   icon: SchoolIcon,
+    //   path: '/week/2',
+    //   openInNewTab: false
+    // },
     {
         title: 'Week 1: Introduction to UX Design: Empathy Phase',
         subject:"11",
