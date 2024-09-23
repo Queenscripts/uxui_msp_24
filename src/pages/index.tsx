@@ -11,7 +11,7 @@ import router from 'next/router';
 const Dashboard = () => {
 useEffect(()=>{
   // CHANGE WEEK
-  router.replace("/week/22-24/")
+  router.replace("/week/1/")
 },[])
   return (
 
