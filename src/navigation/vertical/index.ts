@@ -182,13 +182,13 @@ const navigation = (): VerticalNavItemsType => {
     {
       title:"Request a Tutor",
       icon: AccountBox, 
-      path: "https://calendly.com/d/dnc-wpf-c7s",
+      path: "https://bootcampspot.instructure.com/courses/6348/external_tools/429",
       openInNewTab: true
     },
     {
       title: 'Zoom Meetings & Recordings',
       icon: VideoCameraFrontIcon,
-      path: 'https://courses.bootcampspot.com/courses/4019/external_tools/249',
+      path: 'https://bootcampspot.instructure.com/courses/6348/external_tools/249',
       openInNewTab: true
     },
     {

@@ -12,7 +12,7 @@ const One = () => {
         "1.1-02 Proto-Personas", 
         "1.1-03 Practice Interview",
         "01.1-02-Five-Whys-Method"]}
-      day2Activities={["https://drive.google.com/drive/folders/1rt6m6ub_XBUBU-R1kpfAcaOkSQwjm4IM", 
+      day2Activities={["https://drive.google.com/drive/folders/1nHtnuNNGK8sb5um8drhC7XiW28iEh8BD?ths=true", 
         "1.2-01 Research Objectives", 
         "1.2-01 Research Objectives Template",
         "1.2-02 Interview Questions",
