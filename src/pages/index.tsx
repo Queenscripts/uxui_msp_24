@@ -1,10 +1,5 @@
 // ** MUI Imports
-import Box from '@mui/material/Box'
-
-import CardNavigation from 'src/views/cards/CardNavigation'
-import ProtectedRoute from 'src/components/ProtectedRoute'
 import React, { useEffect } from 'react';
-import  Link  from 'next/link'
 import router from 'next/router';
 
 
@@ -14,12 +9,10 @@ useEffect(()=>{
   router.replace("/week/1/")
 },[])
   return (
-
     // <ProtectedRoute>
     <>
        {/* <Link target='_blank' href='/glossary' style={{textAlign:"center", zIndex: 1, fontWeight: "800", color: "#110B11"}}>
-      <section style={{textAlign:"center", zIndex: 1, fontWeight: "800", color: "#110B11", cursor: "pointer"}}> Checkout out our BETA design glossary </section>
-
+        <section style={{textAlign:"center", zIndex: 1, fontWeight: "800", color: "#110B11", cursor: "pointer"}}> Checkout out our BETA design glossary </section>
         </Link>
       <span style={{backgroundColor:"#BDA3FA", height: "10vh", margin: "10vh"}}> <div style={{ position: "relative", zIndex: "-1", opacity:".7", backgroundColor:"#BDA3FA", height: "5vh",margin: "-7vh 0 2vh", borderRadius:"50px"}}></div> </span>
           <Box style={{display: "flex", flexDirection:"column", padding:"10px", justifyContent: "center", alignItems:"center",  background:"#077B98", color:"white", fontWeight:"bolder", marginBottom:"5px", textShadow:"0 0 7px #fff,0 0 10px #fff, 0 0 51px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 82px #0fa, 0 0 102px #0fa, 0 0 151px #0fa" }}>
