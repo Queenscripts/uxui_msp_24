@@ -28,7 +28,7 @@ const One = () => {
         // `https://docs.google.com/presentation/d/e/2PACX-1vTOZH7N5QZ9Ft45CK0bRvQznfrHjoeByAsnXwDblLCc5N5kkgglGGDU-vXP41YE_V3nRL8KghjQxHj-/embed?start=false&loop=false&delayms=3000`
       ]} 
       slideURL="https://drive.google.com/drive/folders/15hkxQvgh-Y6gWYYGXJvwqnG5glojJq5S?usp=sharing" 
-      moduleChallenge='User story: This week, you’re a user researcher who wants to understand the pain points of how people plan to travel in the future, post-pandemic. You’ll conduct user tests in order to understand user pain points. From there, you’ll develop a user persona that draws from the affinity diagram and empathy map that you will also create.' 
+      moduleChallenge='Over the next three modules, you will create a case study that will go in your design portfolio. The Module 1 Challenge is the first set of deliverables as you work through directly applying the stages of design thinking.' 
       moduleChallengeLink='https://docs.google.com/document/d/1Y-RmkZT2_zdmeFePOthC0aqIjZpWJwGmp01ElUQ5HAE/edit'
     />
     </ProtectedRoute>
