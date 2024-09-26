@@ -19,12 +19,16 @@ const One = () => {
         "1.2-02 Discussion Guide",
         "1.2-03 User Interview Practice"
       ]}
-      // day3Activities={["https://drive.google.com/drive/folders/1UuESoCLysownaLvgwpPyyxAZ5htyQEyr", "01.3-01-Affinity-Diagramming", "01.3-02-Empathy-Map", "01.3-03-User-Personas"]}
+      day3Activities={[
+      "https://drive.google.com/drive/folders/1TFJC5bC6PNB0h78Ux0MQbU3eyfkHxZc2?ths=true", 
+      "01.3-01-Affinity-Diagramming", 
+      "01.3-02-Empathy-Map", 
+      "01.3-03-User-Personas"]}
       // resourceLink="https://docs.google.com/document/d/1BW24OJaV2WZrLBvS8u6G7-1skJ3tBJJYzIMcZtO6Azc/edit?usp=sharing"
       slidesLinks={[
         `https://docs.google.com/presentation/d/10outQZYDj8-rlM8MQNiT4Yu4AMCiCcYFTcEg6kxzBok/embed?start=true&loop=true&delayms=3000`,
         `https://docs.google.com/presentation/d/1ExsdCGVw-8O7hBcR5UU0pZL5H_iC1Vr6z8PP2NmwwC8/embed?start=true&loop=true&delayms=3000`,
-        // `https://docs.google.com/presentation/d/e/2PACX-1vTr0xkDHE1JGsLpOtlPhNlP-D6LxSI8ipwPE7fP2k-9tpF0OGm4GfEVeZL76oZE5KWjHNSFsx67juPU/embed?start=false&loop=false&delayms=3000`,
+        `https://docs.google.com/presentation/d/1fp-N9i92piyv4Fkff9Q-mmEwBvb1uOYa_WLouaWHbfQ/embed?start=false&loop=false&delayms=3000`,
         // `https://docs.google.com/presentation/d/e/2PACX-1vTOZH7N5QZ9Ft45CK0bRvQznfrHjoeByAsnXwDblLCc5N5kkgglGGDU-vXP41YE_V3nRL8KghjQxHj-/embed?start=false&loop=false&delayms=3000`
       ]} 
       slideURL="https://drive.google.com/drive/folders/15hkxQvgh-Y6gWYYGXJvwqnG5glojJq5S?usp=sharing" 
