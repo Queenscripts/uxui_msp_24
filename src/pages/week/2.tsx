@@ -38,7 +38,7 @@ const One = () => {
           `https://docs.google.com/presentation/d/e/2PACX-1vRq6BbUCivbUNHWLzPJ94Z7f6CXVSfuodLkh-CHhH7L8cQhBw5jjICSjYhpNgthXK1ZjwY3CQQ03zL_/embed?start=true&loop=true&delayms=3000`,
          
         ]}
-        slideURL="https://drive.google.com/drive/folders/1ykG-UvMUKNZSIfe-mHPIPtGbY-I-tK1I?usp=drive_link"
+        slideURL="https://drive.google.com/drive/folders/1G3oq0Rlr0y9v1L7hUGdgHyjq2QHQDxm3?usp=sharing"
         moduleChallenge="User story: In order to transform your research insights into meaningful next steps, you must know which tools will help you transform those insights. It’s time to put that user researcher hat back on and grab your user persona from last week. Your job is to use your user persona to create a problem statement, ideate on potential solutions, and then apply visual storytelling to create a narrative around the solution you’ve identified."
         challengeDeliverables="
       Required Deliverables
