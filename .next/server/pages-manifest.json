@@ -1,0 +1,8 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/week/1": "pages/week/1.js",
+  "/week/2": "pages/week/2.js",
+  "/peers": "pages/peers.js"
+}

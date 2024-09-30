@@ -137,13 +137,13 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/3',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 2: UX + Design Thinking: Definition, Ideation, UX Storytelling',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/2',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 2: UX + Design Thinking: Definition, Ideation, UX Storytelling',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/2',
+      openInNewTab: false
+    },
     {
         title: 'Week 1: Introduction to UX Design: Empathy Phase',
         subject:"11",

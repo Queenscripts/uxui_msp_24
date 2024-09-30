@@ -6,7 +6,7 @@ import router from 'next/router';
 const Dashboard = () => {
 useEffect(()=>{
   // CHANGE WEEK
-  router.replace("/week/1/")
+  router.replace("/week/2/")
 },[])
   return (
     // <ProtectedRoute>
