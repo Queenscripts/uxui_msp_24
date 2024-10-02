@@ -15,15 +15,15 @@ const One = () => {
           "2.1-03 Problem Statements",
           "2.1-04 User Stories"
         ]}
-        // day2Activities={
-        //   [
-        //     "https://drive.google.com/drive/folders/1B_XhuxYea2EAXKVJqRc1yc5-gMj2NvdL",
-        //     "02.2-01-I like-I Wish-What If-Ideation",
-        //     "02.2-02-Feature-Prioritization",
-        //     "02.2-03-Value-Proposition-Statements",
-        //   ]
+        day2Activities={
+          [
+            "https://drive.google.com/drive/folders/1JkzILoELXW246fk_XvkRHnM9BRZqrrm_?ths=true",
+            "2.2-01 Creative Matrix",
+            "2.2-02 I Like, I Wish, What If",
+            "2.2-03 Prioritization Matrix",
+          ]
           // ["https://drive.google.com/drive/folders/1rt6m6ub_XBUBU-R1kpfAcaOkSQwjm4IM", "01.2-01-User-Interview", "01.2-01.1-User-Interview-Sample-Questions"]
-        // }
+        }
         // day3Activities={
         //   [
         //     "https://drive.google.com/drive/folders/1sHF4lUDP5XSdMucnMplN7ye2VSdWRi7s",
@@ -36,6 +36,7 @@ const One = () => {
         // resourceLink="https://docs.google.com/document/d/1BW24OJaV2WZrLBvS8u6G7-1skJ3tBJJYzIMcZtO6Azc/edit?usp=sharing"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vRq6BbUCivbUNHWLzPJ94Z7f6CXVSfuodLkh-CHhH7L8cQhBw5jjICSjYhpNgthXK1ZjwY3CQQ03zL_/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vS9Yvj734sVSntWOXYVtVCoGqrOsit40b9LQkQzMVNAqDT1-UaBcNdQq3tiy50dszABeBWzBP54TdzP/embed?start=true&loop=true&delayms=3000`
          
         ]}
         slideURL="https://drive.google.com/drive/folders/1G3oq0Rlr0y9v1L7hUGdgHyjq2QHQDxm3?usp=sharing"
