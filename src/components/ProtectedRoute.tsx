@@ -8,9 +8,9 @@ const isAuthenticated = ()=>{
 const ProtectedRoute: React.FC = ({children})=>{
     const router= useRouter();
     useEffect(()=>{
-        if(!isAuthenticated()){
-            router.replace("/pages/login")
-        }
+        // if(!isAuthenticated()){
+        //     router.replace("/pages/login")
+        // }
     },[])
    
     return(
