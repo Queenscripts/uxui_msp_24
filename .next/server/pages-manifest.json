@@ -1,5 +1,9 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/week/2": "pages/week/2.js",
+  "/": "pages/index.js",
+  "/pages/login": "pages/pages/login.js",
+  "/week/1": "pages/week/1.js"
 }

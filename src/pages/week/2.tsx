@@ -24,19 +24,20 @@ const One = () => {
           ]
           // ["https://drive.google.com/drive/folders/1rt6m6ub_XBUBU-R1kpfAcaOkSQwjm4IM", "01.2-01-User-Interview", "01.2-01.1-User-Interview-Sample-Questions"]
         }
-        // day3Activities={
-        //   [
-        //     "https://drive.google.com/drive/folders/1sHF4lUDP5XSdMucnMplN7ye2VSdWRi7s",
-        //     "02.3-01-User-Scenarios",
-        //     "02.3-02-Storyboards",
-        //     "02.3-03-User-Journey-Maps",
-        //   ]
+        day3Activities={
+          [
+            "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU",
+            "02.3-01-User-Scenarios",
+            "02.3-02-Storyboards",
+            "02.3-03-User-Journey-Maps",
+          ]
           // ["https://drive.google.com/drive/folders/1UuESoCLysownaLvgwpPyyxAZ5htyQEyr", "01.3-01-Affinity-Diagramming", "01.3-02-Empathy-Map", "01.3-03-User-Personas"]
-        // }
+        }
         // resourceLink="https://docs.google.com/document/d/1BW24OJaV2WZrLBvS8u6G7-1skJ3tBJJYzIMcZtO6Azc/edit?usp=sharing"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vRq6BbUCivbUNHWLzPJ94Z7f6CXVSfuodLkh-CHhH7L8cQhBw5jjICSjYhpNgthXK1ZjwY3CQQ03zL_/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vS9Yvj734sVSntWOXYVtVCoGqrOsit40b9LQkQzMVNAqDT1-UaBcNdQq3tiy50dszABeBWzBP54TdzP/embed?start=true&loop=true&delayms=3000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vS9Yvj734sVSntWOXYVtVCoGqrOsit40b9LQkQzMVNAqDT1-UaBcNdQq3tiy50dszABeBWzBP54TdzP/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRoAZe-wsYJu0wQC_ziXC56TloaPzF_0yfW2liySpncgfeHyZkoKyFrBQ_rZ-GPPGCEsr-BMRFznquF/embed?start=true&loop=true&delayms=3000`
          
         ]}
         slideURL="https://drive.google.com/drive/folders/1G3oq0Rlr0y9v1L7hUGdgHyjq2QHQDxm3?usp=sharing"

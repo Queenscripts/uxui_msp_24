@@ -73,6 +73,9 @@ const FormControlLabel = styled(MuiFormControlLabel)<FormControlLabelProps>(({ t
 const RegisterPage = () => {
   // ** States
 
+  const [error, setError] = useState(false)
+
+  const [errorVal, setErrorVal] = useState("")
   const [values, setValues] = useState({
     email:'',
     name:"",   
@@ -123,8 +126,13 @@ const RegisterPage = () => {
       } else {
         const data = await response.json();
         console.error('Signup failed:', data.error);
+        setErrorVal(data.error)
+
+        setError(true)
       }
-    } catch (error) {
+    } catch (error:any) {
+      setError(true)
+      setErrorVal(error)
       console.error('Error signing up:', error);
     }
   };
@@ -293,6 +301,9 @@ const RegisterPage = () => {
             <>{" "}</>
             <br/>
             <br/>
+            {error && 
+              <p style={{fontSize: "20px", fontWeight: "bold", color: "red"}}> Error has occured: {errorVal}</p>
+            }
 
             <Button fullWidth size='large' type='submit' variant='contained' sx={{ marginBottom: 7 }}>
               Sign up
