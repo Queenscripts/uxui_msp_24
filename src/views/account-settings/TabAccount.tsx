@@ -106,7 +106,7 @@ if(typeof window !== 'undefined'){
       onSubmit={(e)=>{
         e.preventDefault()
         const userId: any= JSON.parse(localStorage.getItem("token")|| '{}')?.user?._id
-        fetch(`https://bootcamp-pied.vercel.app/api/student?id=${userId}`,{
+        fetch(`https://uxui-msp-24.vercel.app/api/student?id=${userId}`,{
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(updateStudent)
