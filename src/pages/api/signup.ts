@@ -8,7 +8,7 @@ import jwt from 'jsonwebtoken';
 connectDb();
 
 export default async function handler(req:any, res:any) {
-//   if (req.method === 'POST') {
+  if (req.method === 'POST') {
     const { email, password , github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry} = req.body;
     const isStudent = async (email:string)=>{
         const students = await Students.find({})
@@ -44,7 +44,7 @@ export default async function handler(req:any, res:any) {
     } catch (error) {
       console.error('Error signing up user:', error);
       return res.status(500).json({ error: 'Internal server error' });
-    }
+    }}
     return res.status(405).end();
 
 }
