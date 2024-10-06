@@ -1,4 +1,3 @@
-// import { NextApiRequest, NextApiResponse } from 'next';
 import connectDb from './db';
 import User, { IUser } from './models/User';
 import bcrypt from 'bcrypt';

@@ -8,7 +8,7 @@ import jwt from 'jsonwebtoken';
 connectDb();
 
 export default async function handler(req:any, res:any) {
-  if (req.method === 'POST') {
+  if (req.method === 'PUT') {
     const { email, password , github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry} = req.body;
     const isStudent = async (email:string)=>{
         const students = await Students.find({})
@@ -27,7 +27,7 @@ export default async function handler(req:any, res:any) {
       const user: IUser = await User.create({ email, password: hashedPassword, github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry});
 
       // Generate a JWT token
-      const token = jwt.sign({ userId: user._id }, 'process.env.JWT_SECRET' as any, {
+      const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET as any, {
         expiresIn: '1h', // Token expires in 1 hour, adjust as needed
       });
       // Check if user already exists
