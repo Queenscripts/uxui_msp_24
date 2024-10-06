@@ -33,5 +33,5 @@ export default async function handler(req:any, res:any) {
     }
   }
 
-  return res.status(405).end();
+  // return res.status(405).end();
 }
