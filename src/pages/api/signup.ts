@@ -7,7 +7,7 @@ import jwt from 'jsonwebtoken';
 
 connectDb();
 
-export default async function handler(req:any, res:any) {
+export async function handler(req:any, res:any) {
   if (req.method === 'PUT') {
     const { email, password , github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry} = req.body;
     const isStudent = async (email:string)=>{
