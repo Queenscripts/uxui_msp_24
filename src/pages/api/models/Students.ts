@@ -23,8 +23,6 @@ const StudentSchema = new mongoose.Schema({
     hobbies: {type: String, require: false},
     industry: {type: String, require: false},
     prevIndustry: {type: String, require: false},
-
-
 })
 
 export default mongoose.models.Student || mongoose.model<IStudent>("Student", StudentSchema);
