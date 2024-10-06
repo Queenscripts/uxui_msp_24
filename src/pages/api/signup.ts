@@ -7,7 +7,7 @@ import jwt from 'jsonwebtoken';
 
 connectDb();
 
-export async function handler(req:any, res:any) {
+export default async function handler(req:any, res:any) {
   if (req.method === 'PUT') {
     const { email, password , github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry} = req.body;
     const isStudent = async (email:string)=>{
@@ -46,6 +46,6 @@ export async function handler(req:any, res:any) {
       return res.status(500).json({ error: 'Internal server error' });
     }
   }
-    // return res.status(405).end();
+    return res.status(405).end();
 
 }
