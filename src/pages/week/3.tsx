@@ -30,39 +30,47 @@ const One = () => {
       moduleTitle='Week 3: UX + Design Thinking: Prototyping' 
       activitiesHeader="Low-Fi Prototyping" 
       activitiesLink="https://drive.google.com/drive/folders/1n1adXMc_NxnVIjk9nnc9FrhxbVtLBKMj"
-      day1Activities={["https://drive.google.com/drive/folders/1l6O2rBoimwNmg3u13iymQqoRTW8DTllc",
-      "03.1-01-User-Flow-Analysis", 
-      "03.1-02-Sandwich-User-Flow-Challenge", 
-      "03.1-03-User-Flow-Onboarding",
+      day1Activities={["https://drive.google.com/drive/folders/1pAc3fQ-bQopYKeCjPF2YX1xcZ0mqjkmT",
+      "3.1-01 Sandwich User Flow", 
+      "3.1-02 Paper Prototyping", 
+      "3.1-03 Usability Testing",
       ]}
-      day2Activities={
-        ["https://drive.google.com/drive/folders/1gaFakuTuk9un12K5pH9rhleLMCq92RZ8",
-        "03.2-01-Competitor-Analysis","03.2-02-User-Flow-Mobile-App","03.2-03-Paper-Wireframes"
-      ]
-      }
-      day3Activities={["https://drive.google.com/drive/folders/1Q3Gr_uivoJDUZKjW_6H0ndYwcEfI0m7-","03.3-01-Clickable-Prototype-and-Testing","03.3-02-UI-Design-Patterns","03.3-03-Digital-Wireframes"]
-      }
+            // day2Activities={["https://drive.google.com/drive/folders/1oQO51aM-Qs3RfDJY7oZmOnB3c68BIVkL",
+      //"03.2-01 Remote Usability Testing Plan","03.2-01 Remote Usability Testing Plan Template",
+      //"03.2-02 Usability Testing", "03.2-03 Usability Testing Analysis", "03.2-03 UX Design Brief Template"]
+      // }
+      // day3Activities={
+      //   ["https://drive.google.com/drive/folders/12AhtjEpI98FH-VlouEP7oVk5SCWlGX6d",
+      //   "3.3-01 Mini Case Study","3.3-01 Mini Case Study Outline Template"
+      // ]
+      // }
+
       slidesLinks={[
-       `https://docs.google.com/presentation/d/e/2PACX-1vTobaZF7w5M8l0kmjsudRPZzm9_P_iVCIoeR4ciozslIjTsvyp78wxf-vjoUCXwV24uaKwTMmuSj891/embed?start=false&loop=false&delayms=3000`,
-       `https://docs.google.com/presentation/d/e/2PACX-1vTDhVFKBMlkuXbmMSMyBnNiaz302YrFxbelhWkrw5FEFIYj-zs1jWapFIzZZBQgbtW0SfC5bQ_Dnec6/embed?start=false&loop=false&delayms=3000`,
-       `https://docs.google.com/presentation/d/e/2PACX-1vT9QK4eAzb3m-RZgoTuRZtaSLXR40yZLxpggkW1_6k6L81JylxsKdG7sKSp4OetwVwKSsF2aX8ZyQ2m/embed?start=false&loop=false&delayms=3000`
+       `https://docs.google.com/presentation/d/e/2PACX-1vTcppUsSuE9nzlp936wlXI8EtJEYfaF2FeuWbuxhaFX38IM14lg4KEg5681IG0j2YhiJCnTfG6xvF__/embed?start=true&loop=true&delayms=3000`,
+      //  `https://docs.google.com/presentation/d/e/2PACX-1vTDhVFKBMlkuXbmMSMyBnNiaz302YrFxbelhWkrw5FEFIYj-zs1jWapFIzZZBQgbtW0SfC5bQ_Dnec6/embed?start=false&loop=false&delayms=3000`,
+      //  `https://docs.google.com/presentation/d/e/2PACX-1vRbA6kApcXhGtoIFOM23Q2TlkKzkD-XYVcUPmYHiV9AROfy-c0bvys-p20wH8ofLOrxeAwZcAlvZHQT/embed?start=true&loop=true&delayms=3000`
       ]} 
       slideURL="https://drive.google.com/drive/folders/18Qi_OF21z1XS0u9pZwqm2i14Y9U0s8B6?usp=sharing" 
       moduleChallenge='User story: Last week, you worked as a UX researcher with the define and ideate phases of the design thinking process for the mobile app design challenge. 
       '
       challengeDeliverables='
-      Required Deliverables: 
-      Competitor analysis |
-      User flow (or a PDF of your user flow) | 
-      Wireframe sketches (photos) | 
-      A link to your clickable low-fidelity InVision or Figma prototype |
-      Digital wireframes |
-      A link to you your clickable digital prototype (Figma or Adobe XD) | 
-      A link to your Google Slide deck | 
-A link to your Google Drive folder 
+      Cover slide
+Project overview
+Note: Your cover slide can contain your project overview, or you can put your project overview on its own slide.
+Include slides from Challenges 1 and 2 in your case study covering the design thinking process.
+Empathize
+Define
+Ideate
+Prototype
+Test
+User testing plan and notes
+Links to two or more user test recordings
+Clickable paper prototype
+Analysis of your guerrilla user testing results
+
 
       '
-       moduleChallengeLink='https://docs.google.com/document/d/1ZX_ZoWDh995z1YsSd-JllS2ROoOM1ZkR8-c8nXSoiZg'
+       moduleChallengeLink='https://docs.google.com/document/d/1WM594QTwHABI89m7iRx3QyEn_7dxRxTVBsfErImhFx4/edit'
     />
     </ProtectedRoute>
 
