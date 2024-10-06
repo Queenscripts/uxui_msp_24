@@ -44,7 +44,8 @@ export default async function handler(req:any, res:any) {
     } catch (error) {
       console.error('Error signing up user:', error);
       return res.status(500).json({ error: 'Internal server error' });
-    }}
-    return res.status(405).end();
+    }
+  }
+    // return res.status(405).end();
 
 }
