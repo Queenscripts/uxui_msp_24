@@ -27,7 +27,7 @@ export default async function handler(req:any, res:any) {
       const user: IUser = await User.create({ email, password: hashedPassword, github, name, motivation, location, portfolio, os, hobbies, industry, prevIndustry});
 
       // Generate a JWT token
-      const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET as any, {
+      const token = jwt.sign({ userId: user._id }, 'process.env.JWT_SECRET' as any, {
         expiresIn: '1h', // Token expires in 1 hour, adjust as needed
       });
       // Check if user already exists
@@ -45,7 +45,6 @@ export default async function handler(req:any, res:any) {
       console.error('Error signing up user:', error);
       return res.status(500).json({ error: 'Internal server error' });
     }
-//   }
+    return res.status(405).end();
 
-  // return res.status(405).end();
 }
