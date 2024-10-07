@@ -41,7 +41,7 @@ React.useEffect(()=>{
           studentState?.length<=0 || !studentState  ?
            <Grid   item xs={12} sm={6} md={4}>
             <CircularProgress  color="primary" /></Grid> :
-        ([...new Set(studentState)]||[]).map((student:any, index)=>
+        [...new Set(studentState)].filter((i, pos)=>studentState.indexOf(i)==pos).map((student:any, index)=>
         <Grid key={index} item xs={12} sm={6} md={4}>
     
         <CardFacebook portfolio={student.portfolio} prevIndustry={student.prevIndustry} industry={student.industry} hobbies={student.hobbies}name={student.name} motivation={student.motivation}  />
