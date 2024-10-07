@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/peers": "pages/peers.js",
-  "/week/2": "pages/week/2.js",
-  "/account-settings": "pages/account-settings.js",
-  "/week/3": "pages/week/3.js"
+  "/pages/login": "pages/pages/login.js"
 }

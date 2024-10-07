@@ -23,8 +23,8 @@ const Peers = ()=>{
 
 React.useEffect(()=>{
     async function students(){
-
-        const users = await fetch("https://uxui-msp-24.vercel.app/api/students")
+        // https://uxui-msp-24.vercel.app
+        const users = await fetch("/api/students")
         const res = await users.json()
         return res
     }
@@ -41,7 +41,9 @@ React.useEffect(()=>{
           studentState?.length<=0 || !studentState  ?
            <Grid   item xs={12} sm={6} md={4}>
             <CircularProgress  color="primary" /></Grid> :
-        [...new Set(studentState)].filter(({ id }, index)=>!studentState.includes(id, index + 1)).map((student:any, index)=>
+        [...new Set(studentState)].filter(({ email }, index)=>{
+            return ![...new Set(studentState)].map(i=>i.email.toLowerCase()).includes(email.toLowerCase(), index + 1)}
+    ).map((student:any, index)=>
         <Grid key={index} item xs={12} sm={6} md={4}>
     
         <CardFacebook portfolio={student.portfolio} prevIndustry={student.prevIndustry} industry={student.industry} hobbies={student.hobbies}name={student.name} motivation={student.motivation}  />
