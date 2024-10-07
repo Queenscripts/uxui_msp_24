@@ -24,7 +24,7 @@ const Peers = ()=>{
 React.useEffect(()=>{
     async function students(){
         // https://uxui-msp-24.vercel.app
-        const users = await fetch("/api/students")
+        const users = await fetch("https://uxui-msp-24.vercel.app/api/students")
         const res = await users.json()
         return res
     }
