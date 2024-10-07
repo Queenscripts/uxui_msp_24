@@ -42,7 +42,7 @@ React.useEffect(()=>{
            <Grid   item xs={12} sm={6} md={4}>
             <CircularProgress  color="primary" /></Grid> :
         [...new Set(studentState)].filter(({ email }, index)=>{
-            return ![...new Set(studentState)].map(i=>i.email.toLowerCase()).includes(email.toLowerCase(), index + 1)}
+            return ![...new Set(studentState)].map(i=>i?.email.toLowerCase()).includes(email?.toLowerCase(), index + 1)}
     ).map((student:any, index)=>
         <Grid key={index} item xs={12} sm={6} md={4}>
     
