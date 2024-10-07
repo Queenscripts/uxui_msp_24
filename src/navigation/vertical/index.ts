@@ -130,13 +130,13 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/4',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 3: Low-Fi Prototyping',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/3',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 3: Low-Fi Prototyping',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/3',
+      openInNewTab: false
+    },
     {
       title: 'Week 2: UX + Design Thinking: Definition, Ideation, UX Storytelling',
       subject:"11",

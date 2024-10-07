@@ -26,9 +26,10 @@ interface CardNavProps {
    resourceLink?: string; 
    activitiesLink?: string;
    challengeDeliverables?: string;
+   glossaryTerms?: any
   }
 
-const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink}:CardNavProps) => {
+const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink,glossaryTerms}:CardNavProps) => {
   // ** State
   const [value, setValue] = useState<string>('1')
 
@@ -47,7 +48,7 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
           <Tab value='1' label='Activities' />
           <Tab value='2' label='Slides' />
           <Tab value='3' label='Module Challenge' />
-          <Tab value='4' label='Resources' />
+          <Tab value='4' label='Glossary' />
 
         </TabList>
         <CardContent>
@@ -128,10 +129,20 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
               Header Three
             </Typography> */}
             <Typography variant='body2' sx={{ marginBottom: 4 }}>
-             {moduleTitle} Resources 
+             {moduleTitle} Glossary 
             </Typography>
-            <a target="_blank" rel="noreferrer" href={resourceLink}>            <Button variant='contained' > Go to Module Resources</Button>
-</a>
+          <ul>
+            {glossaryTerms?.map(({term, definition}: {term: string; definition: string;})=>(
+              <li>
+                <b>{term}</b>
+                <ul>
+                  <li>
+                    {definition}
+                  </li>
+                </ul>
+              </li>
+            ))}
+          </ul>
           </TabPanel>
         </CardContent>
       </TabContext>
