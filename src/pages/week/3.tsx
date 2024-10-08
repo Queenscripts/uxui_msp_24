@@ -144,7 +144,7 @@ const One = () => {
                               //  `https://docs.google.com/presentation/d/e/2PACX-1vTDhVFKBMlkuXbmMSMyBnNiaz302YrFxbelhWkrw5FEFIYj-zs1jWapFIzZZBQgbtW0SfC5bQ_Dnec6/embed?start=false&loop=false&delayms=3000`,
                               //  `https://docs.google.com/presentation/d/e/2PACX-1vRbA6kApcXhGtoIFOM23Q2TlkKzkD-XYVcUPmYHiV9AROfy-c0bvys-p20wH8ofLOrxeAwZcAlvZHQT/embed?start=true&loop=true&delayms=3000`
                         ]}
-                        slideURL="https://drive.google.com/drive/folders/18Qi_OF21z1XS0u9pZwqm2i14Y9U0s8B6?usp=sharing"
+                        slideURL="https://drive.google.com/drive/folders/1D-ttjMUtHtAlTseuwcAOLW2tRCQln1zH?usp=sharing"
                         moduleChallenge="User story: Last week, you worked as a UX researcher with the define and ideate phases of the design thinking process for the mobile app design challenge. 
       "
                         challengeDeliverables="
