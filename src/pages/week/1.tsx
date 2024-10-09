@@ -34,7 +34,15 @@ const One = () => {
       slideURL="https://drive.google.com/drive/folders/15hkxQvgh-Y6gWYYGXJvwqnG5glojJq5S?usp=sharing" 
       moduleChallenge='Over the next three modules, you will create a case study that will go in your design portfolio. The Module 1 Challenge is the first set of deliverables as you work through directly applying the stages of design thinking.' 
       moduleChallengeLink='https://docs.google.com/document/d/1Y-RmkZT2_zdmeFePOthC0aqIjZpWJwGmp01ElUQ5HAE/edit'
-      glossaryTerms={[{"term":"k", "definition":"j"}]}
+      glossaryTerms={[
+        {
+              term: "Affinity diagramming",
+              definition:
+                    " a method that can help you gather large amounts of data and organize them into groups or themes based on their relationships.",
+        },
+ 
+        
+  ]}
     />
     </ProtectedRoute>
   )
