@@ -56,7 +56,27 @@ const One = () => {
       Storyboard
       User journey map
       Iterations and feedback documentation"
-        moduleChallengeLink="https://docs.google.com/document/d/12M9HK5Xt-0sBQPBWejF1XW9BQhE1NGjlLLf6Laq6k4U/edit#heading=h.e90ml85suxb3"
+        moduleChallengeLink="https://docs.google.com/document/d/1auEnGq49q56kCTm6ssZ_bEoHCvBE76BSXCKnwoLL4TA/edit"
+
+        glossaryTerms={[
+          {
+                term: "Brainstorming",
+                definition:
+                      "the act of generating a high volume of fresh ideas. Many design teams use tools like games, pens, paper, and short bursts of time to think outside the box. Brainstorming tips from IDEO follow",
+          },
+          {
+            term: "Start with a problem statement",
+            definition:
+                  "Identify the core subject or the main aim of the exercise.",
+      },
+      {
+        term: "Start with a problem statement",
+        definition:
+              "Identify the core subject or the main aim of the exercise.",
+  },
+
+          
+    ]}
       />
     </ProtectedRoute>
   );
