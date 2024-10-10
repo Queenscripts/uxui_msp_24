@@ -110,16 +110,16 @@ const One = () => {
                         "03.2-01 Remote Usability Testing Plan","03.2-01 Remote Usability Testing Plan Template",
                         "03.2-02 Usability Testing", "03.2-03 Usability Testing Analysis", "03.2-03 UX Design Brief Template"]
                         }
-                        // day3Activities={
-                        //   ["https://drive.google.com/drive/folders/12AhtjEpI98FH-VlouEP7oVk5SCWlGX6d",
-                        //   "3.3-01 Mini Case Study","3.3-01 Mini Case Study Outline Template"
-                        // ]
-                        // }
+                        day3Activities={
+                          ["https://drive.google.com/drive/folders/12AhtjEpI98FH-VlouEP7oVk5SCWlGX6d",
+                          "3.3-01 Mini Case Study","3.3-01 Mini Case Study Outline Template"
+                        ]
+                        }
 
                         slidesLinks={[
                               `https://docs.google.com/presentation/d/e/2PACX-1vTcppUsSuE9nzlp936wlXI8EtJEYfaF2FeuWbuxhaFX38IM14lg4KEg5681IG0j2YhiJCnTfG6xvF__/embed?start=true&loop=true&delayms=3000`,
                                `https://docs.google.com/presentation/d/e/2PACX-1vQPWINXOz5f88_RstfHzeElxKw3XjJd2afr_0MfwNOiKzaMVnnr1b8U9xM646vB7lMx6qpboqHkW6nR/embed?start=true&loop=true&delayms=3000`,
-                              //  `https://docs.google.com/presentation/d/e/2PACX-1vRbA6kApcXhGtoIFOM23Q2TlkKzkD-XYVcUPmYHiV9AROfy-c0bvys-p20wH8ofLOrxeAwZcAlvZHQT/embed?start=true&loop=true&delayms=3000`
+                               `https://docs.google.com/presentation/d/e/2PACX-1vRbA6kApcXhGtoIFOM23Q2TlkKzkD-XYVcUPmYHiV9AROfy-c0bvys-p20wH8ofLOrxeAwZcAlvZHQT/embed?start=true&loop=true&delayms=3000`
                         ]}
                         slideURL="https://drive.google.com/drive/folders/1D-ttjMUtHtAlTseuwcAOLW2tRCQln1zH?usp=sharing"
                         moduleChallenge="User story: Last week, you worked as a UX researcher with the define and ideate phases of the design thinking process for the mobile app design challenge. 
