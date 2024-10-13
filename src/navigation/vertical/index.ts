@@ -116,20 +116,13 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/8',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 5-7: Group Project',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/5-7',
-    //   openInNewTab: false
-    // },
-    // {
-    //   title: 'Week 4: Mid-Fidelity Prototyping',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/4',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 4-7: Group Project',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/4-7',
+      openInNewTab: false
+    },
     {
       title: 'Week 3: Low-Fi Prototyping',
       subject:"11",
