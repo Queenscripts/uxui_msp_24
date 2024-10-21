@@ -39,11 +39,11 @@ const One = () => {
        "4.2-01 Empathy Development",
       ]
       }
-      // day3Activities={[
-      //   "https://drive.google.com/drive/folders/1-mG9e13qJ8IfXVzRpkrcONIO4hALM5ja",
-      //   "05.3-01-Group Project One Proposal"
-      // ]
-      // }
+      day3Activities={[
+        "",
+        "Continue group project work: srum, UX research phase"
+      ]
+      }
       slidesLinks={[
        `https://docs.google.com/presentation/d/e/2PACX-1vSNdWRsmXn-9fPsQClGtq7qPT_hmlLTKNpfZQWSGS0nVLehI5JlZD98AtZ5kJ5BAs5pYG7oYfTpcHx2/embed?start=true&loop=true&delayms=3000`,
        `https://docs.google.com/presentation/d/e/2PACX-1vQlTT8C1hbLA5wD7y8dp36PBQn0chRLB8jGhCbRODNMP9lc_x7j9-rdsLy3PveTAObsDoCi4i7RjXQh/embed?start=true&loop=true&delayms=3000`,
