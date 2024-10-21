@@ -41,7 +41,7 @@ const One = () => {
       }
       day3Activities={[
         "",
-        "Continue group project work: srum, UX research phase"
+        "Continue group project work: srum standup, UX research phase: interviews and feedback"
       ]
       }
       slidesLinks={[
