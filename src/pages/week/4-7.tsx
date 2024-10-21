@@ -46,9 +46,8 @@ const One = () => {
       // }
       slidesLinks={[
        `https://docs.google.com/presentation/d/e/2PACX-1vSNdWRsmXn-9fPsQClGtq7qPT_hmlLTKNpfZQWSGS0nVLehI5JlZD98AtZ5kJ5BAs5pYG7oYfTpcHx2/embed?start=true&loop=true&delayms=3000`,
-
        `https://docs.google.com/presentation/d/e/2PACX-1vQlTT8C1hbLA5wD7y8dp36PBQn0chRLB8jGhCbRODNMP9lc_x7j9-rdsLy3PveTAObsDoCi4i7RjXQh/embed?start=true&loop=true&delayms=3000`,
-      //  `https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=3000`
+       `"https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=3000`
       ]}
       slideURL="https://drive.google.com/drive/folders/1nC2h5jCnUe7dIgglNBcKV0-U6zog5e4X?usp=sharing" 
       moduleChallengeLink='https://docs.google.com/document/d/1MgFHz2QtCZQntY6kBboZUEVU3adiiFbsj3-7jBpdxRQ/edit?tab=t.0'
