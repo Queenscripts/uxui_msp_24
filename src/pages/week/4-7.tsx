@@ -28,8 +28,8 @@ const One = () => {
   return (
     <ProtectedRoute>
        <CardNavigation 
-      moduleTitle='Week 4-7: Group Project + Case Study Week' 
-      activitiesHeader="Case study work" 
+      moduleTitle='Weeks 4-7: Week 4' 
+      activitiesHeader="Group Project Research Phase" 
       activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
       day1Activities={["https://drive.google.com/drive/folders/1DzVkoc_BhaUIfsfLF7_4VASfh16A1VFE",
       "4.1-01 Setting Group Expectations", 
@@ -44,10 +44,11 @@ const One = () => {
         "Continue group project work: srum standup, UX research phase: interviews and feedback"
       ]
       }
+
       slidesLinks={[
        `https://docs.google.com/presentation/d/e/2PACX-1vSNdWRsmXn-9fPsQClGtq7qPT_hmlLTKNpfZQWSGS0nVLehI5JlZD98AtZ5kJ5BAs5pYG7oYfTpcHx2/embed?start=true&loop=true&delayms=3000`,
        `https://docs.google.com/presentation/d/e/2PACX-1vQlTT8C1hbLA5wD7y8dp36PBQn0chRLB8jGhCbRODNMP9lc_x7j9-rdsLy3PveTAObsDoCi4i7RjXQh/embed?start=true&loop=true&delayms=3000`,
-       `https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=3000`
+       `https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=3000`,
       ]}
       slideURL="https://drive.google.com/drive/folders/1nC2h5jCnUe7dIgglNBcKV0-U6zog5e4X?usp=sharing" 
       moduleChallengeLink='https://docs.google.com/document/d/1MgFHz2QtCZQntY6kBboZUEVU3adiiFbsj3-7jBpdxRQ/edit?tab=t.0'
@@ -179,6 +180,79 @@ const One = () => {
         "Brief, written descriptions of features or functionality from an end-user perspective. User stories are used in Agile software development to capture requirements and focus on the user's needs and goals.",
 }, 
 
+  ]}
+    />
+    <br/>
+    <br/>
+
+     <CardNavigation 
+      moduleTitle='Weeks 4-7: Week 5 ' 
+      activitiesHeader="Group Project Define Phase" 
+      activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+      day1Activities={["https://docs.google.com/document/d/1YhtqtIADQZziFI-P3SxucHRaoOlg1TzQBhKxx1q1imI/edit?tab=t.0", "5.1-01 Affinity Mapping",]}
+
+      slidesLinks={[
+    
+       `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=3000`
+      ]}
+      slideURL="https://drive.google.com/drive/folders/13pfoEGUMny6OQ6Duii87vkzUrqQpNZ8A?usp=sharing" 
+      moduleChallengeLink='https://docs.google.com/document/d/1VLJcxL2qwwzssQ-KVeI3eJw2jlU-vje0zLm1HZwfssI/edit?tab=t.0'
+      challengeDeliverables='Wicked Problem Definition'
+      glossaryTerms={[
+        {
+              term: "Affinity Mapping",
+              definition:
+                    "A method employed to systematically categorize and group data into themes or patterns, aiding in data analysis and interpretation.",
+        },
+        {
+          term: "Behavioral Archetypes",
+          definition:
+                "Common and representative user behaviors that offer valuable insights into user needs and motivations, facilitating a deeper understanding of user preferences and actions.",
+    }, {
+      term: "Creative Matrix",
+      definition:
+            "An innovative tool utilized to spark and cultivate design concepts by integrating diverse elements or variables, fostering creativity and idea generation in the design process.",
+},
+{
+  term: "Empathy Framework",
+  definition:
+        "A structured approach designed to foster designers' understanding of users' emotions, thoughts, and behaviors, enabling empathetic design solutions that resonate with user experiences and needs.",
+},
+{
+  term: "HMW Statement",
+  definition:
+        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
+},
+{
+  term: "Ideate",
+  definition:
+        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
+},
+{
+  term: "POV Statement",
+  definition:
+        "A 'Point of View' statement that articulates user needs, insights, and perspectives, guiding the design process towards addressing user issues and creating impactful solutions. Priority Matrix: A tool to rank and prioritize items according to their significance and time sensitivity, aiding in effective decision-making and task management.",
+},
+{
+  term: "Storyboard",
+  definition:
+        " A visual sequence of illustrations depicting critical moments or interactions in a user's journey or experience with a product or service, helping to visualize and understand the user's interaction flow.",
+},
+{
+  term: "Synthesize",
+  definition:
+        "The process of merging and integrating various elements or information to create a unified and coherent whole, facilitating clarity and understanding in complex design or problem-solving processes.",
+},
+{
+  term: "User Flow",
+  definition: " A graphical depiction illustrating the sequential steps a user follows to accomplish a specific task within a system or application, helping to visualize the user's interaction path."},
+{
+term: "User Insights",
+definition: "Valuable findings derived from user research that guide and shape design decisions, ensuring user-centered solutions and experiences."},
+{ term: "User Journey", 
+  definition: "A visual narrative mapping out a user's complete experience with a product or service, providing insights into the user's interactions, emotions, and touchpoints throughout the entire journey."},
+{term: "Wireframes", definition: "Simplified and visual blueprints showcasing the skeletal structure and layout of a website or application, focusing on functionality and content placement during the design process."
+}
   ]}
     />
     </ProtectedRoute>

@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/peers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/peers.js"
-    ],
     "/week/4-7": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

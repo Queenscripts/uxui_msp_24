@@ -26,10 +26,11 @@ interface CardNavProps {
    resourceLink?: string; 
    activitiesLink?: string;
    challengeDeliverables?: string;
-   glossaryTerms?: any
+   glossaryTerms?: any;
+   moreActivities?: any;
   }
 
-const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink,glossaryTerms}:CardNavProps) => {
+const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink,glossaryTerms,moreActivities}:CardNavProps) => {
   // ** State
   const [value, setValue] = useState<string>('1')
 
@@ -63,7 +64,7 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
            <label htmlFor="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"> {act}</label>
           </div>)}
           <br/>
-          <b> <a target="_blank"rel="noreferrer" href={day2Activities && day2Activities[0]}>  Day 2 Activities </a></b>
+          {day2Activities && <b> <a target="_blank"rel="noreferrer" href={day2Activities && day2Activities[0]}>  Day 2 Activities </a></b>}
 
             {day2Activities && day2Activities.slice(1).map((act, index)=> <div key={index} className="flex items-center mb-4">
            <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
@@ -71,8 +72,14 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
           </div>)}
           <br/>
         
-          <b> <a target="_blank"rel="noreferrer" href={day3Activities && day3Activities[0]}>  Day 3 Activities </a></b>
+          {day3Activities &&  <b> <a target="_blank"rel="noreferrer" href={day3Activities && day3Activities[0]}>  Day 3 Activities </a></b>}
             {day3Activities && day3Activities.slice(1).map((act, index)=> <div key={index} className="flex items-center mb-4">
+           <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+           <label htmlFor="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"> {act}</label>
+          </div>)}
+
+          {moreActivities &&  <b> <a target="_blank"rel="noreferrer" href={moreActivities && moreActivities[0]}>  Additional Activities </a></b>}
+            {moreActivities && moreActivities.slice(1).map((act:any, index:any)=> <div key={index} className="flex items-center mb-4">
            <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
            <label htmlFor="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"> {act}</label>
           </div>)}
