@@ -190,11 +190,13 @@ const One = () => {
       activitiesHeader="Group Project Define Phase" 
       activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
       day1Activities={["https://docs.google.com/document/d/1YhtqtIADQZziFI-P3SxucHRaoOlg1TzQBhKxx1q1imI/edit?tab=t.0", "5.1-01 Affinity Mapping",]}
-      day2Activities={["Module 2 Activities: ", "https://drive.google.com/drive/folders/1B_XhuxYea2EAXKVJqRc1yc5-gMj2NvdL", "https://drive.google.com/drive/folders/1JkzILoELXW246fk_XvkRHnM9BRZqrrm_", "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU"]}
+      day2Activities={["#","Module 2.1-2 Activities: ", "https://drive.google.com/drive/folders/1B_XhuxYea2EAXKVJqRc1yc5-gMj2NvdL", "https://drive.google.com/drive/folders/1JkzILoELXW246fk_XvkRHnM9BRZqrrm_", ]}
+     day3Activities={["#", "Module 2.3 activities: ", "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU"]} 
       slidesLinks={[
     
        `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=3000`,
         `https://docs.google.com/presentation/d/e/2PACX-1vRUnmk3O_-aT-d-iTbvmX6uN9cX_3xQ_C_vZl9bdS64aeavBQCPYVkVfP6rt14yGtQExQgaT9OQV46J/embed?start=true&loop=true&delayms=3000`,
+        `https://docs.google.com/presentation/d/e/2PACX-1vR4EIOkBro44N0C19lyGRbIucmPUklHQpPeIIzW5vCzq3lWWbV28eBhJn3lhaavtKJkMKvt6q_tERbI/embed?start=true&loop=true&delayms=3000`
       ]}
       slideURL="https://drive.google.com/drive/folders/13pfoEGUMny6OQ6Duii87vkzUrqQpNZ8A?usp=sharing" 
       moduleChallengeLink='https://docs.google.com/document/d/1VLJcxL2qwwzssQ-KVeI3eJw2jlU-vje0zLm1HZwfssI/edit?tab=t.0'
