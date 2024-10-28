@@ -111,14 +111,15 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
             <Typography variant='h6' sx={{ marginBottom: 2 }}>
              This Week&apos;s Slides
             </Typography>
-            <Typography variant='body2' sx={{ marginBottom: 4 }}>
-                {slidesLinks && slidesLinks.map((slide, index)=><iframe key="index" width="50%"
-    height="310px"src={slide}></iframe>)}
-            </Typography>
             <Button onClick={
               ()=>window?.open(slideURL, '_blank')!.focus()
             } 
              variant='contained'>Go to Week&apos;s Slides</Button>
+            <Typography variant='body2' sx={{ marginBottom: 4 }}>
+                {slidesLinks && slidesLinks.map((slide, index)=><iframe key="index" width="50%"
+    height="310px"src={slide}></iframe>)}
+            </Typography>
+      
           </TabPanel>
           <TabPanel value='3' sx={{ p: 0 }}>
             {/* <Typography variant='h6' sx={{ marginBottom: 2 }}>
