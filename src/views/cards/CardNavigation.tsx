@@ -115,6 +115,9 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
               ()=>window?.open(slideURL, '_blank')!.focus()
             } 
              variant='contained'>Go to Week&apos;s Slides</Button>
+
+             <br/>
+             <br/>
             <Typography variant='body2' sx={{ marginBottom: 4 }}>
                 {slidesLinks && slidesLinks.map((slide, index)=><iframe key="index" width="50%"
     height="310px"src={slide}></iframe>)}
