@@ -27,6 +27,150 @@ import React from 'react'
 const One = () => {
   return (
     <ProtectedRoute>
+
+<CardNavigation 
+
+video={true}
+videoLinks={["https://www.youtube.com/embed/D4NyQ5iOMF0?si=ueP-FhaAEXG-I1Ii", "https://www.youtube.com/embed/v1UKB-0EUhQ?si=Uk5qXFlSaQ5756xr", "https://www.youtube.com/embed/qpH7-KFWZRI?si=hkqWxcU8ySekSNo8","https://www.youtube.com/embed/VRf8cyeuxoo?si=e_xUSNtChpROvEau"]}
+      moduleTitle='Weeks 4-7: Week 6 ' 
+      activitiesHeader="Group Project Prototyping Phase" 
+      activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+     
+      slidesLinks={[
+    
+       `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=3000`
+       
+      ]}
+      slideURL="https://drive.google.com/drive/folders/1C17a8iKL4NTQb0vXC4x_7p7jSLHdcZyB?usp=drive_link" 
+      moduleChallengeLink='https://docs.google.com/document/d/1Xtln1_PIFAdsOqoKk2hL3CXKlat7aqHLP9sBrkPH7Cw/edit?tab=t.0'
+      challengeDeliverables='Wicked Problem Prototyping'
+      glossaryTerms={[
+        {
+              term: "Accessibility",
+              definition:
+                    "Creating products, devices, services, or environments that cater to a diverse range of abilities and disabilities, ensuring inclusivity and usability for all individuals.",
+        },
+        
+        {
+          term: "AMA (Ask Me Anything)",
+          definition:
+                " A live session where students engage with instructors, posing questions on specific topics like UX/UI, design thinking, or career-related inquiries."
+    },
+    {
+      term: "Clickable Prototype",
+      definition:
+            " A functional model of a digital product that enables user interaction through clicking on elements, like buttons or links, to navigate and evaluate the layout and features."
+},{
+  term: "Cognitive Disabilities",
+  definition:
+        "Conditions impacting cognitive functions such as memory, attention, problem-solving, and language abilities, influencing how individuals process and respond to information."
+},{
+  term: "Color Contrast",
+  definition:
+        "The distinction in brightness or color between text and its background, crucial for enhancing readability and accessibility for users with visual impairments, ensuring clear visual communication."
+},{
+  term: "Equitable Access",
+  definition:
+        " Tools and resources to ensure fair and balanced access to information and services for all users, promoting inclusivity and equal opportunities."
+},{
+  term: "Inclusive Design",
+  definition:
+        "The practice of developing products, services, or environments that prioritize diverse user needs, including those with disabilities, to guarantee accessibility and usability for all individuals."
+},{
+  term: "Interactive Prototype",
+  definition:
+        "A dynamic model that mimics the interactive functionalities of a final product, allowing users to engage with the design through actions like clicking, swiping, and interacting with various elements."
+},{
+  term: "Universal Design",
+  definition:
+        "The approach of creating products, services, or environments that cater to the broadest spectrum of individuals possible, regardless of abilities or disabilities, promoting equal access and usability for all users."
+},{
+  term: "WCAG (Web Content Accessibility Guidelines)",
+  definition:
+        "Internationally recognized standards specifying guidelines for web accessibility, facilitating the creation of web content that is inclusive and accessible to individuals with disabilities."
+},
+  ]}
+    />
+
+
+<br/>
+    <br/>
+
+<CardNavigation 
+      moduleTitle='Weeks 4-7: Week 5 ' 
+      activitiesHeader="Group Project Define Phase" 
+      activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+      day1Activities={["https://docs.google.com/document/d/1YhtqtIADQZziFI-P3SxucHRaoOlg1TzQBhKxx1q1imI/edit?tab=t.0", "5.1-01 Affinity Mapping",]}
+      day2Activities={["#","Module 2.1-2 Activities: ", "https://drive.google.com/drive/folders/1B_XhuxYea2EAXKVJqRc1yc5-gMj2NvdL", "https://drive.google.com/drive/folders/1JkzILoELXW246fk_XvkRHnM9BRZqrrm_", ]}
+     day3Activities={["#", "Module 2.3 activities: ", "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU"]} 
+      slidesLinks={[
+    
+       `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=3000`,
+        `https://docs.google.com/presentation/d/e/2PACX-1vRUnmk3O_-aT-d-iTbvmX6uN9cX_3xQ_C_vZl9bdS64aeavBQCPYVkVfP6rt14yGtQExQgaT9OQV46J/embed?start=true&loop=true&delayms=3000`,
+        `https://docs.google.com/presentation/d/e/2PACX-1vR4EIOkBro44N0C19lyGRbIucmPUklHQpPeIIzW5vCzq3lWWbV28eBhJn3lhaavtKJkMKvt6q_tERbI/embed?start=true&loop=true&delayms=3000`
+      ]}
+      slideURL="https://drive.google.com/drive/folders/13pfoEGUMny6OQ6Duii87vkzUrqQpNZ8A?usp=sharing" 
+      moduleChallengeLink='https://docs.google.com/document/d/1VLJcxL2qwwzssQ-KVeI3eJw2jlU-vje0zLm1HZwfssI/edit?tab=t.0'
+      challengeDeliverables='Wicked Problem Definition'
+      glossaryTerms={[
+        {
+              term: "Affinity Mapping",
+              definition:
+                    "A method employed to systematically categorize and group data into themes or patterns, aiding in data analysis and interpretation.",
+        },
+        {
+          term: "Behavioral Archetypes",
+          definition:
+                "Common and representative user behaviors that offer valuable insights into user needs and motivations, facilitating a deeper understanding of user preferences and actions.",
+    }, {
+      term: "Creative Matrix",
+      definition:
+            "An innovative tool utilized to spark and cultivate design concepts by integrating diverse elements or variables, fostering creativity and idea generation in the design process.",
+},
+{
+  term: "Empathy Framework",
+  definition:
+        "A structured approach designed to foster designers' understanding of users' emotions, thoughts, and behaviors, enabling empathetic design solutions that resonate with user experiences and needs.",
+},
+{
+  term: "HMW Statement",
+  definition:
+        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
+},
+{
+  term: "Ideate",
+  definition:
+        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
+},
+{
+  term: "POV Statement",
+  definition:
+        "A 'Point of View' statement that articulates user needs, insights, and perspectives, guiding the design process towards addressing user issues and creating impactful solutions. Priority Matrix: A tool to rank and prioritize items according to their significance and time sensitivity, aiding in effective decision-making and task management.",
+},
+{
+  term: "Storyboard",
+  definition:
+        " A visual sequence of illustrations depicting critical moments or interactions in a user's journey or experience with a product or service, helping to visualize and understand the user's interaction flow.",
+},
+{
+  term: "Synthesize",
+  definition:
+        "The process of merging and integrating various elements or information to create a unified and coherent whole, facilitating clarity and understanding in complex design or problem-solving processes.",
+},
+{
+  term: "User Flow",
+  definition: " A graphical depiction illustrating the sequential steps a user follows to accomplish a specific task within a system or application, helping to visualize the user's interaction path."},
+{
+term: "User Insights",
+definition: "Valuable findings derived from user research that guide and shape design decisions, ensuring user-centered solutions and experiences."},
+{ term: "User Journey", 
+  definition: "A visual narrative mapping out a user's complete experience with a product or service, providing insights into the user's interactions, emotions, and touchpoints throughout the entire journey."},
+{term: "Wireframes", definition: "Simplified and visual blueprints showcasing the skeletal structure and layout of a website or application, focusing on functionality and content placement during the design process."
+}
+  ]}
+    />
+<br/>
+<br/>
        <CardNavigation 
       moduleTitle='Weeks 4-7: Week 4' 
       activitiesHeader="Group Project Research Phase" 
@@ -182,147 +326,8 @@ const One = () => {
 
   ]}
     />
-    <br/>
-    <br/>
-
-     <CardNavigation 
-      moduleTitle='Weeks 4-7: Week 5 ' 
-      activitiesHeader="Group Project Define Phase" 
-      activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
-      day1Activities={["https://docs.google.com/document/d/1YhtqtIADQZziFI-P3SxucHRaoOlg1TzQBhKxx1q1imI/edit?tab=t.0", "5.1-01 Affinity Mapping",]}
-      day2Activities={["#","Module 2.1-2 Activities: ", "https://drive.google.com/drive/folders/1B_XhuxYea2EAXKVJqRc1yc5-gMj2NvdL", "https://drive.google.com/drive/folders/1JkzILoELXW246fk_XvkRHnM9BRZqrrm_", ]}
-     day3Activities={["#", "Module 2.3 activities: ", "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU"]} 
-      slidesLinks={[
     
-       `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vRUnmk3O_-aT-d-iTbvmX6uN9cX_3xQ_C_vZl9bdS64aeavBQCPYVkVfP6rt14yGtQExQgaT9OQV46J/embed?start=true&loop=true&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vR4EIOkBro44N0C19lyGRbIucmPUklHQpPeIIzW5vCzq3lWWbV28eBhJn3lhaavtKJkMKvt6q_tERbI/embed?start=true&loop=true&delayms=3000`
-      ]}
-      slideURL="https://drive.google.com/drive/folders/13pfoEGUMny6OQ6Duii87vkzUrqQpNZ8A?usp=sharing" 
-      moduleChallengeLink='https://docs.google.com/document/d/1VLJcxL2qwwzssQ-KVeI3eJw2jlU-vje0zLm1HZwfssI/edit?tab=t.0'
-      challengeDeliverables='Wicked Problem Definition'
-      glossaryTerms={[
-        {
-              term: "Affinity Mapping",
-              definition:
-                    "A method employed to systematically categorize and group data into themes or patterns, aiding in data analysis and interpretation.",
-        },
-        {
-          term: "Behavioral Archetypes",
-          definition:
-                "Common and representative user behaviors that offer valuable insights into user needs and motivations, facilitating a deeper understanding of user preferences and actions.",
-    }, {
-      term: "Creative Matrix",
-      definition:
-            "An innovative tool utilized to spark and cultivate design concepts by integrating diverse elements or variables, fostering creativity and idea generation in the design process.",
-},
-{
-  term: "Empathy Framework",
-  definition:
-        "A structured approach designed to foster designers' understanding of users' emotions, thoughts, and behaviors, enabling empathetic design solutions that resonate with user experiences and needs.",
-},
-{
-  term: "HMW Statement",
-  definition:
-        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
-},
-{
-  term: "Ideate",
-  definition:
-        "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
-},
-{
-  term: "POV Statement",
-  definition:
-        "A 'Point of View' statement that articulates user needs, insights, and perspectives, guiding the design process towards addressing user issues and creating impactful solutions. Priority Matrix: A tool to rank and prioritize items according to their significance and time sensitivity, aiding in effective decision-making and task management.",
-},
-{
-  term: "Storyboard",
-  definition:
-        " A visual sequence of illustrations depicting critical moments or interactions in a user's journey or experience with a product or service, helping to visualize and understand the user's interaction flow.",
-},
-{
-  term: "Synthesize",
-  definition:
-        "The process of merging and integrating various elements or information to create a unified and coherent whole, facilitating clarity and understanding in complex design or problem-solving processes.",
-},
-{
-  term: "User Flow",
-  definition: " A graphical depiction illustrating the sequential steps a user follows to accomplish a specific task within a system or application, helping to visualize the user's interaction path."},
-{
-term: "User Insights",
-definition: "Valuable findings derived from user research that guide and shape design decisions, ensuring user-centered solutions and experiences."},
-{ term: "User Journey", 
-  definition: "A visual narrative mapping out a user's complete experience with a product or service, providing insights into the user's interactions, emotions, and touchpoints throughout the entire journey."},
-{term: "Wireframes", definition: "Simplified and visual blueprints showcasing the skeletal structure and layout of a website or application, focusing on functionality and content placement during the design process."
-}
-  ]}
-    />
-   <br/>
-    <br/>
-<CardNavigation 
 
-video={true}
-videoLinks={["https://www.youtube.com/embed/D4NyQ5iOMF0?si=ueP-FhaAEXG-I1Ii", "https://www.youtube.com/embed/v1UKB-0EUhQ?si=Uk5qXFlSaQ5756xr", "https://www.youtube.com/embed/qpH7-KFWZRI?si=hkqWxcU8ySekSNo8","https://www.youtube.com/embed/VRf8cyeuxoo?si=e_xUSNtChpROvEau"]}
-      moduleTitle='Weeks 4-7: Week 6 ' 
-      activitiesHeader="Group Project Prototyping Phase" 
-      activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
-     
-      slidesLinks={[
-    
-       `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=3000`
-       
-      ]}
-      slideURL="https://drive.google.com/drive/folders/1C17a8iKL4NTQb0vXC4x_7p7jSLHdcZyB?usp=drive_link" 
-      moduleChallengeLink='https://docs.google.com/document/d/1Xtln1_PIFAdsOqoKk2hL3CXKlat7aqHLP9sBrkPH7Cw/edit?tab=t.0'
-      challengeDeliverables='Wicked Problem Prototyping'
-      glossaryTerms={[
-        {
-              term: "Accessibility",
-              definition:
-                    "Creating products, devices, services, or environments that cater to a diverse range of abilities and disabilities, ensuring inclusivity and usability for all individuals.",
-        },
-        
-        {
-          term: "AMA (Ask Me Anything)",
-          definition:
-                " A live session where students engage with instructors, posing questions on specific topics like UX/UI, design thinking, or career-related inquiries."
-    },
-    {
-      term: "Clickable Prototype",
-      definition:
-            " A functional model of a digital product that enables user interaction through clicking on elements, like buttons or links, to navigate and evaluate the layout and features."
-},{
-  term: "Cognitive Disabilities",
-  definition:
-        "Conditions impacting cognitive functions such as memory, attention, problem-solving, and language abilities, influencing how individuals process and respond to information."
-},{
-  term: "Color Contrast",
-  definition:
-        "The distinction in brightness or color between text and its background, crucial for enhancing readability and accessibility for users with visual impairments, ensuring clear visual communication."
-},{
-  term: "Equitable Access",
-  definition:
-        " Tools and resources to ensure fair and balanced access to information and services for all users, promoting inclusivity and equal opportunities."
-},{
-  term: "Inclusive Design",
-  definition:
-        "The practice of developing products, services, or environments that prioritize diverse user needs, including those with disabilities, to guarantee accessibility and usability for all individuals."
-},{
-  term: "Interactive Prototype",
-  definition:
-        "A dynamic model that mimics the interactive functionalities of a final product, allowing users to engage with the design through actions like clicking, swiping, and interacting with various elements."
-},{
-  term: "Universal Design",
-  definition:
-        "The approach of creating products, services, or environments that cater to the broadest spectrum of individuals possible, regardless of abilities or disabilities, promoting equal access and usability for all users."
-},{
-  term: "WCAG (Web Content Accessibility Guidelines)",
-  definition:
-        "Internationally recognized standards specifying guidelines for web accessibility, facilitating the creation of web content that is inclusive and accessible to individuals with disabilities."
-},
-  ]}
-    />
     </ProtectedRoute>
 
 
