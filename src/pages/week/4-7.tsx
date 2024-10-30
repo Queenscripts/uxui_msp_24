@@ -258,7 +258,8 @@ definition: "Valuable findings derived from user research that guide and shape d
 }
   ]}
     />
-
+   <br/>
+    <br/>
 <CardNavigation 
 
 video={true}
