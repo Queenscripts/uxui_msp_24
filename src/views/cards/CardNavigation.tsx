@@ -28,9 +28,11 @@ interface CardNavProps {
    challengeDeliverables?: string;
    glossaryTerms?: any;
    moreActivities?: any;
+   video?: true;
+   videoLinks?: string[];
   }
 
-const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink,glossaryTerms,moreActivities}:CardNavProps) => {
+const CardNavigation = ({video, videoLinks, moduleTitle, activitiesHeader,slidesLinks, slideURL, moduleChallenge, challengeDeliverables, moduleChallengeLink, day1Activities,day2Activities,day3Activities, resourceLink, activitiesLink,glossaryTerms,moreActivities}:CardNavProps) => {
   // ** State
   const [value, setValue] = useState<string>('1')
 
@@ -58,7 +60,20 @@ const CardNavigation = ({moduleTitle, activitiesHeader,slidesLinks, slideURL, mo
              {activitiesHeader}
             </Typography>
             <Typography variant='body2' sx={{ marginBottom: 4 }}>
-              <b> <a target="_blank"rel="noreferrer" href={day1Activities && day1Activities[0]}> Day 1 Activities </a></b>
+            {video && <b> Additional Learning Videos </b>}
+
+              {video && videoLinks && 
+              <>
+              <ul>
+             { videoLinks.map((item, i)=>(
+                <li key={i}>
+                  <iframe width="560" height="315" src={item} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>)
+              )}
+              </ul>
+              </>
+              }
+            {day1Activities && <b> <a target="_blank"rel="noreferrer" href={day1Activities && day1Activities[0]}> Day 1 Activities </a></b>}
             {day1Activities && day1Activities.slice(1).map((act, index)=> <div key={index} className="flex items-center mb-4">
            <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
            <label htmlFor="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"> {act}</label>
