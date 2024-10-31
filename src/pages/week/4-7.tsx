@@ -31,15 +31,29 @@ const One = () => {
 <CardNavigation 
 
 video={true}
-videoLinks={["https://www.youtube.com/embed/D4NyQ5iOMF0?si=ueP-FhaAEXG-I1Ii", "https://www.youtube.com/embed/v1UKB-0EUhQ?si=Uk5qXFlSaQ5756xr", "https://www.youtube.com/embed/qpH7-KFWZRI?si=hkqWxcU8ySekSNo8","https://www.youtube.com/embed/VRf8cyeuxoo?si=e_xUSNtChpROvEau"]}
+videoLinks={[
+  "https://www.youtube.com/embed/npMv06oJJrM?si=vqbDwUYF4loxBfta" ,
+  "https://www.youtube.com/embed/L4E1yupkISI?si=LgsPhtuhn5fyQfbw",
+  "https://www.youtube.com/embed/Dss4wKk0Dog?si=Mc6hpqgrSUzrtV3n",
+  "https://www.youtube.com/embed/Dss4wKk0Dog?si=AfnWhNnUsshxrZVU",
+  "https://www.youtube.com/embed/NdJV8yuqBEA?si=Ur7w2J4I4_BZCVPP",
+  "https://www.youtube.com/embed/DNBIcBdKnQo?si=R6ixvHS6Kexg0T9A",
+  "https://www.youtube.com/embed/UJ6M7LZjKv0?si=b9vW4seXwbl5ZkgE",
+
+"https://www.youtube.com/embed/Zt2GmDOEHM0?si=2vgZ73HOPoDbUjKO",
+"https://www.youtube.com/embed/74WDl_MhQj8?si=Ry5R9_kBfokZMcP1",
+"https://www.youtube.com/embed/cvYhuowazh0?si=4LRPXlrz74OFFUlb" ,
+
+
+  "https://www.youtube.com/embed/D4NyQ5iOMF0?si=ueP-FhaAEXG-I1Ii", "https://www.youtube.com/embed/v1UKB-0EUhQ?si=Uk5qXFlSaQ5756xr", "https://www.youtube.com/embed/qpH7-KFWZRI?si=hkqWxcU8ySekSNo8","https://www.youtube.com/embed/VRf8cyeuxoo?si=e_xUSNtChpROvEau"]}
       moduleTitle='Weeks 4-7: Week 6 ' 
       activitiesHeader="Group Project Prototyping Phase" 
       activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
      
       slidesLinks={[
     
-       `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=3000`
-       
+       `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=3000`,
+       `https://docs.google.com/presentation/d/e/2PACX-1vTV1HJNL7rfK1J1mgpKZSK9FO9ihB6hV27CLNL8XN8p1_zw-SH6drxyFLH0oIdbvO4fSa9G2xIb2TvH/embed?start=true&loop=true&delayms=3000`,
       ]}
       slideURL="https://drive.google.com/drive/folders/1C17a8iKL4NTQb0vXC4x_7p7jSLHdcZyB?usp=drive_link" 
       moduleChallengeLink='https://docs.google.com/document/d/1Xtln1_PIFAdsOqoKk2hL3CXKlat7aqHLP9sBrkPH7Cw/edit?tab=t.0'
