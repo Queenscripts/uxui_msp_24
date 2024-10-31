@@ -35,11 +35,9 @@ videoLinks={[
   "https://www.youtube.com/embed/npMv06oJJrM?si=vqbDwUYF4loxBfta" ,
   "https://www.youtube.com/embed/L4E1yupkISI?si=LgsPhtuhn5fyQfbw",
   "https://www.youtube.com/embed/Dss4wKk0Dog?si=Mc6hpqgrSUzrtV3n",
-  "https://www.youtube.com/embed/Dss4wKk0Dog?si=AfnWhNnUsshxrZVU",
   "https://www.youtube.com/embed/NdJV8yuqBEA?si=Ur7w2J4I4_BZCVPP",
   "https://www.youtube.com/embed/DNBIcBdKnQo?si=R6ixvHS6Kexg0T9A",
   "https://www.youtube.com/embed/UJ6M7LZjKv0?si=b9vW4seXwbl5ZkgE",
-
 "https://www.youtube.com/embed/Zt2GmDOEHM0?si=2vgZ73HOPoDbUjKO",
 "https://www.youtube.com/embed/74WDl_MhQj8?si=Ry5R9_kBfokZMcP1",
 "https://www.youtube.com/embed/cvYhuowazh0?si=4LRPXlrz74OFFUlb" ,
