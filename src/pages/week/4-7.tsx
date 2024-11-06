@@ -13,7 +13,7 @@ const One = () => {
         "https://www.youtube.com/embed/ZVZfWfqmRBY?si=35saNnCe84Kfwhig" 
         ]}
         moduleTitle="Weeks 4-7: Week 7 "
-        activitiesHeader="Group Project Prototyping Phase"
+        activitiesHeader="Group Project Presentations"
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vQkfs-eRNO2OpvLvpxmONMTwxz69nWX9hiaN_s4jkiOAGR8eH0zmeUia2CTp9OQiopGQoitUWahgv-t/embed?start=true&loop=true&delayms=3000`,
