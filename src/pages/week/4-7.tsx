@@ -16,7 +16,7 @@ const One = () => {
         activitiesHeader="Group Project Presentations"
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
-          `https://docs.google.com/presentation/d/e/2PACX-1vQkfs-eRNO2OpvLvpxmONMTwxz69nWX9hiaN_s4jkiOAGR8eH0zmeUia2CTp9OQiopGQoitUWahgv-t/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQkfs-eRNO2OpvLvpxmONMTwxz69nWX9hiaN_s4jkiOAGR8eH0zmeUia2CTp9OQiopGQoitUWahgv-t/embed?start=true&loop=true&delayms=10000`,
      
         ]}
         slideURL="https://drive.google.com/drive/folders/1tOzjXGhv-hbbMeKl8bHy1kj9dTwqcnta?usp=sharing"
@@ -86,9 +86,9 @@ const One = () => {
         activitiesHeader="Group Project Prototyping Phase"
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
-          `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vTV1HJNL7rfK1J1mgpKZSK9FO9ihB6hV27CLNL8XN8p1_zw-SH6drxyFLH0oIdbvO4fSa9G2xIb2TvH/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vRMrl-4L06TbzNCARHOO-XAYWDZsAzsR1IKOR6utBTOUOi_8-WPHaMFQfVKVMf4mYcTcKt1UANnUmi1/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQfPWs6SM9u3iZqcYAC8Utw6eJWul4vXZ-LBUaIFV-uLyNJlPJR17XV2Ng3dOG1iaMTx9iB7wlJGmZD/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vTV1HJNL7rfK1J1mgpKZSK9FO9ihB6hV27CLNL8XN8p1_zw-SH6drxyFLH0oIdbvO4fSa9G2xIb2TvH/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRMrl-4L06TbzNCARHOO-XAYWDZsAzsR1IKOR6utBTOUOi_8-WPHaMFQfVKVMf4mYcTcKt1UANnUmi1/embed?start=true&loop=true&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1C17a8iKL4NTQb0vXC4x_7p7jSLHdcZyB?usp=drive_link"
         moduleChallengeLink="https://docs.google.com/document/d/1Xtln1_PIFAdsOqoKk2hL3CXKlat7aqHLP9sBrkPH7Cw/edit?tab=t.0"
@@ -171,9 +171,9 @@ const One = () => {
           "https://drive.google.com/drive/folders/1NUNFGaPHAuJsFr4V_-AUXsV7qGPEh_rU",
         ]}
         slidesLinks={[
-          `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vRUnmk3O_-aT-d-iTbvmX6uN9cX_3xQ_C_vZl9bdS64aeavBQCPYVkVfP6rt14yGtQExQgaT9OQV46J/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vR4EIOkBro44N0C19lyGRbIucmPUklHQpPeIIzW5vCzq3lWWbV28eBhJn3lhaavtKJkMKvt6q_tERbI/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQYHBvzB39xgj-pCq5j9c39yWR3Dc1aFpenHgtO9FZSy8VWK8RsEI72mGbNNSYEIIl0WxqDs6eBYPo4/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRUnmk3O_-aT-d-iTbvmX6uN9cX_3xQ_C_vZl9bdS64aeavBQCPYVkVfP6rt14yGtQExQgaT9OQV46J/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vR4EIOkBro44N0C19lyGRbIucmPUklHQpPeIIzW5vCzq3lWWbV28eBhJn3lhaavtKJkMKvt6q_tERbI/embed?start=true&loop=true&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/13pfoEGUMny6OQ6Duii87vkzUrqQpNZ8A?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1VLJcxL2qwwzssQ-KVeI3eJw2jlU-vje0zLm1HZwfssI/edit?tab=t.0"
@@ -265,9 +265,9 @@ const One = () => {
           "Continue group project work: srum standup, UX research phase: interviews and feedback",
         ]}
         slidesLinks={[
-          `https://docs.google.com/presentation/d/e/2PACX-1vSNdWRsmXn-9fPsQClGtq7qPT_hmlLTKNpfZQWSGS0nVLehI5JlZD98AtZ5kJ5BAs5pYG7oYfTpcHx2/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vQlTT8C1hbLA5wD7y8dp36PBQn0chRLB8jGhCbRODNMP9lc_x7j9-rdsLy3PveTAObsDoCi4i7RjXQh/embed?start=true&loop=true&delayms=3000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=3000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vSNdWRsmXn-9fPsQClGtq7qPT_hmlLTKNpfZQWSGS0nVLehI5JlZD98AtZ5kJ5BAs5pYG7oYfTpcHx2/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQlTT8C1hbLA5wD7y8dp36PBQn0chRLB8jGhCbRODNMP9lc_x7j9-rdsLy3PveTAObsDoCi4i7RjXQh/embed?start=true&loop=true&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQkTK0ECIlFIvRLicHYGcEb6SI_lim3M2jIpFxVNdm6nzwch0FiWfB-sj9HzNj0VTOUS7w-Fgh-ftmA/embed?start=true&loop=true&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1nC2h5jCnUe7dIgglNBcKV0-U6zog5e4X?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1MgFHz2QtCZQntY6kBboZUEVU3adiiFbsj3-7jBpdxRQ/edit?tab=t.0"
