@@ -17,8 +17,8 @@ const One = () => {
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vQkfs-eRNO2OpvLvpxmONMTwxz69nWX9hiaN_s4jkiOAGR8eH0zmeUia2CTp9OQiopGQoitUWahgv-t/embed?start=true&loop=true&delayms=10000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vTV5xAdyCHVvtYQYwVMAiY1wMcy4i5NwOgtpFM3wPLj0KE7eymMrIZkPs5JAVKt1kfVNViicDyYWVxV/embed?start=true&loop=true&delayms=10000`
-     
+          `https://docs.google.com/presentation/d/e/2PACX-1vTV5xAdyCHVvtYQYwVMAiY1wMcy4i5NwOgtpFM3wPLj0KE7eymMrIZkPs5JAVKt1kfVNViicDyYWVxV/embed?start=true&loop=true&delayms=10000`,
+     `https://docs.google.com/presentation/d/e/2PACX-1vQYispR6hx9kojlhvcr-6t9rokoI0bkvCwR8MLCS8q2pJRxlSPcCxzvXKG4wBuOXRlCRAajXVpAa3LG/embed?start=true&loop=true&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1tOzjXGhv-hbbMeKl8bHy1kj9dTwqcnta?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1JD-YAiHo9AgmUVIUNBrZiXo8-ykvrGtxIxM7mTaCG3c/edit?tab=t.0"
