@@ -109,13 +109,13 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/9',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 8: UI Design',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/8',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 8: UI Design',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/8',
+      openInNewTab: false
+    },
     {
       title: 'Week 4-7: Group Project',
       subject:"11",
