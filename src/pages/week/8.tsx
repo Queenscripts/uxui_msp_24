@@ -42,7 +42,7 @@ const One = () => {
       slideURL="https://drive.google.com/drive/folders/15bZKcnZ64WSWT0tNRsyk1lOcrnzwQa_N?usp=sharing" 
       moduleChallenge='Walk the Store: Heuristic Evaluations & Mini Case Study'
       challengeDeliverables='A link to your heuristic evaluation.
-      \n
+    
       A mini case study presentation.'
        moduleChallengeLink='https://docs.google.com/document/d/10i5j4gj2uuAIsNjgycN_CsYBUzWmd_grR6AzfqGGW-k/edit?tab=t.0'
        glossaryTerms={[
