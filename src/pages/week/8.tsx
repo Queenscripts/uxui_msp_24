@@ -6,7 +6,7 @@ const One = () => {
     <ProtectedRoute>
     <CardNavigation 
       moduleTitle='Week 8: Introduction to User Interface' 
-      activitiesHeader="Case study work" 
+      activitiesHeader="Heuristic evaluation and usability" 
       activitiesLink="https://drive.google.com/drive/folders/1rasAvaa1FlIn5y9WXA2lxQ6Prd0nMMTl"
       day1Activities={[
         "https://drive.google.com/drive/folders/1zjg0HvRXoTiYvLROyGB-fSwgLgKSFp-1",
