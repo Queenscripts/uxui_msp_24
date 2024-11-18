@@ -16,16 +16,13 @@ const One = () => {
         "8.1-04 Usability Recommendations", 
         "8.1-04 Usability Recommendations Reference Guide"   
       ]}
-      // day2Activities={[
-      //   "https://drive.google.com/drive/folders/1fpWlIcC5zFeixYs6tZgdNE2hh1E7CGoC",
-      //   "08.2-01-Brand-Inspiration-Moodboard-Activity",
-      //   "08.2-02-Design-Principles-Moodboard",
-      //   "08.2-03-Color-Palette",
-      //   "08.2-04-Government-Color-Palette"
-      
-
-      // ]
-      // }
+      day2Activities={[
+        "https://drive.google.com/drive/folders/1ydB2TLXCrQKDOEUHCGmqiZ2c7a-O-JZ6",
+        "8.2-01 Gestalt Moodboard",
+        "8.2-02 Design Principles Moodboard",
+        "8.2-03 Personal Color Palette"
+      ]
+      }
       // day3Activities={[
       //   "https://drive.google.com/drive/folders/1sPGjbsVSufZUPl7QhEqS8QW4CaIy5ai2",
       //   "08.3-01-Lazy-Dog-Type-Samples-Matrix",
@@ -37,7 +34,8 @@ const One = () => {
       // }
       slidesLinks={[
 
-        `https://docs.google.com/presentation/d/e/2PACX-1vTO8xbDZACWoOVWpbsbgEQ92V-s1uB5GLpwNMaLKs7Sxv50AnLoSWr5kBviE8S_eRPawlN7AJWX37D7/embed?start=true&loop=true&delayms=10000`
+        `https://docs.google.com/presentation/d/e/2PACX-1vTO8xbDZACWoOVWpbsbgEQ92V-s1uB5GLpwNMaLKs7Sxv50AnLoSWr5kBviE8S_eRPawlN7AJWX37D7/embed?start=true&loop=true&delayms=10000`,
+        `https://docs.google.com/presentation/d/e/2PACX-1vQTNgRHuEe_tPMo9cUKGyh_mPnn8HxFB4zTtMVpxaoGTyRdsOvehX7K2DGaMguaxp_hTr-NDzx3i7Q_/embed?start=true&loop=true&delayms=10000`
       ]}
       slideURL="https://drive.google.com/drive/folders/15bZKcnZ64WSWT0tNRsyk1lOcrnzwQa_N?usp=sharing" 
       moduleChallenge='Walk the Store: Heuristic Evaluations & Mini Case Study'
