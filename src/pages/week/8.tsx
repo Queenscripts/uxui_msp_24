@@ -23,19 +23,19 @@ const One = () => {
         "8.2-03 Personal Color Palette"
       ]
       }
-      // day3Activities={[
-      //   "https://drive.google.com/drive/folders/1sPGjbsVSufZUPl7QhEqS8QW4CaIy5ai2",
-      //   "08.3-01-Lazy-Dog-Type-Samples-Matrix",
-      //   "08.3-02-Type Styles and Hierarchy Practice",
-      //   "08.3-03-UI-Grid-Creation-Layout-Challenge-Activity-Instructions",
-      //   "Bonus - 08.3-05-UI-Grid-Layout-Overlay"
+      day3Activities={[
+        "https://drive.google.com/drive/folders/1zggm-ggnJDckFOCTPjDTvxDholKj9cez",
+        "8.3-01 Type Samples",
+        "8.3-02 Type Styles and Hierarchy",
+        "08.3-03-UI-Grid-Creation-Layout-Challenge-Activity-Instructions",
+        "8.3-03 Figma Grid Layout"
       
-      // ]
-      // }
+      ]
+      }
       slidesLinks={[
-
         `https://docs.google.com/presentation/d/e/2PACX-1vTO8xbDZACWoOVWpbsbgEQ92V-s1uB5GLpwNMaLKs7Sxv50AnLoSWr5kBviE8S_eRPawlN7AJWX37D7/embed?start=true&loop=true&delayms=10000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vQTNgRHuEe_tPMo9cUKGyh_mPnn8HxFB4zTtMVpxaoGTyRdsOvehX7K2DGaMguaxp_hTr-NDzx3i7Q_/embed?start=true&loop=true&delayms=10000`
+        `https://docs.google.com/presentation/d/e/2PACX-1vQTNgRHuEe_tPMo9cUKGyh_mPnn8HxFB4zTtMVpxaoGTyRdsOvehX7K2DGaMguaxp_hTr-NDzx3i7Q_/embed?start=true&loop=true&delayms=10000`,
+        `https://docs.google.com/presentation/d/e/2PACX-1vQTc_CxB53ts2PNKWy900Tvx-QPWviniAir2ajA7Dvy_c0ov-qYbLkDT9V6W2L3nuEhtvP57P8lbath/embed?start=true&loop=true&delayms=10000`
       ]}
       slideURL="https://drive.google.com/drive/folders/15bZKcnZ64WSWT0tNRsyk1lOcrnzwQa_N?usp=sharing" 
       moduleChallenge='Walk the Store: Heuristic Evaluations & Mini Case Study'
