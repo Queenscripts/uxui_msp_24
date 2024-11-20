@@ -27,7 +27,6 @@ const One = () => {
         "https://drive.google.com/drive/folders/1zggm-ggnJDckFOCTPjDTvxDholKj9cez",
         "8.3-01 Type Samples",
         "8.3-02 Type Styles and Hierarchy",
-        "08.3-03-UI-Grid-Creation-Layout-Challenge-Activity-Instructions",
         "8.3-03 Figma Grid Layout"
       
       ]
