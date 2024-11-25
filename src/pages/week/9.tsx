@@ -39,16 +39,14 @@ day1Activities={[
  "09.1-03 Targeting Elements with CSS Selectors",
  "09.1-04 Style Your Page",
 ]}
-// day2Activities={[
-//  "https://drive.google.com/drive/folders/1mMBdTgPXDPTigUH6kLppt2LjMLwdnUXY",
-//  "09.2-01-Card-Sort-Creation-Activity",
-//  "09.2-02-Open-Card-Sorting-Activity",
-//  "09.2-03-Card-Sorting-ReOrg-Activity",
-//  "09.2-04-Sitemap-Activity",
-//  "09.2-05-XD-UI-Navigation-Deskop-Activity"
-
-// ]
-// }
+day2Activities={[
+ "https://drive.google.com/drive/folders/14xGYn_VaDQIwfQMVMCr6g1hI7bly7sRo",
+ "09.2-01 Containers and Structure",
+ "09.2-02 Apply the CSS Box Model",
+ "09.2-03 Style Our Style Guide",
+ "09.2-04 Custom Fonts",
+]
+}
 // day3Activities={[
 //   "https://drive.google.com/drive/folders/1ekHJOXAO9yuCctnfF0Kn2hKn42IeRe9M",
 //   "09.3-01-Analyze-UI-Style-Guide",
@@ -61,7 +59,7 @@ day1Activities={[
 // }
 slidesLinks={[
  `https://docs.google.com/presentation/d/e/2PACX-1vQc8WWOE_gAA66ZRX-Mwn24NPvbfvmYE7Ma-g1W2aNvDygrSKQz7wzpx0WmGuObFHG9sQvGoRBiePNH/embed?start=true&loop=true&delayms=10000`,
-
+`https://docs.google.com/presentation/d/e/2PACX-1vQ0AvyNuGeHqTmTsx8MFgZAJBXNe3jpTAKTphYj4KVl9ZcpCXwjrTAXkGmwt8FdM7Vo81HVpnSJfzg9/embed?start=true&loop=true&delayms=10000`
  
 ]}
 slideURL="https://drive.google.com/drive/folders/1765jF23PrZsNkUU8o0Kh8qhZKn7b0Zmm?usp=sharing" 
