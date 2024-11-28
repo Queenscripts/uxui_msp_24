@@ -47,20 +47,20 @@ day2Activities={[
  "09.2-04 Custom Fonts",
 ]
 }
-// day3Activities={[
-//   "https://drive.google.com/drive/folders/1ekHJOXAO9yuCctnfF0Kn2hKn42IeRe9M",
-//   "09.3-01-Analyze-UI-Style-Guide",
-//   "9.3-02-Brand-Positioning-Statement",
-//   "09.3-03-Brand-Voice-and-Tone-Matrix",
-//   "09.3-04-UI-Style-Tile-Challenge"
+day3Activities={[
+  "https://drive.google.com/drive/folders/1YtMp5UlVbmzu9NIaPqxBeS9TIlql8C1X",
+  "09.3-01 Practice With CSS Positioning",
+  "09.3-02 CSS Positioning Properties",
+  "09.3-03 One-Page Website",
+  "09.3-04 Upload Your First Webpage"
 
 
-// ]
-// }
+]
+}
 slidesLinks={[
- `https://docs.google.com/presentation/d/e/2PACX-1vQc8WWOE_gAA66ZRX-Mwn24NPvbfvmYE7Ma-g1W2aNvDygrSKQz7wzpx0WmGuObFHG9sQvGoRBiePNH/embed?start=true&loop=true&delayms=10000`,
-`https://docs.google.com/presentation/d/e/2PACX-1vQ0AvyNuGeHqTmTsx8MFgZAJBXNe3jpTAKTphYj4KVl9ZcpCXwjrTAXkGmwt8FdM7Vo81HVpnSJfzg9/embed?start=true&loop=true&delayms=10000`
- 
+ `https://docs.google.com/presentation/d/e/2PACX-1vQc8WWOE_gAA66ZRX-Mwn24NPvbfvmYE7Ma-g1W2aNvDygrSKQz7wzpx0WmGuObFHG9sQvGoRBiePNH/embed?start=true&loop=true&delayms=5000`,
+`https://docs.google.com/presentation/d/e/2PACX-1vQ0AvyNuGeHqTmTsx8MFgZAJBXNe3jpTAKTphYj4KVl9ZcpCXwjrTAXkGmwt8FdM7Vo81HVpnSJfzg9/embed?start=true&loop=true&delayms=5000`,
+ `https://docs.google.com/presentation/d/e/2PACX-1vSc7V5jP30A_8T8b-QR72XJIkRDReHjOtjUTA_vqUbMPlZef-Zc4iXfWuBsD6V1DstTodoevLcM1p7K/embed?start=true&loop=true&delayms=5000`
 ]}
 slideURL="https://drive.google.com/drive/folders/1765jF23PrZsNkUU8o0Kh8qhZKn7b0Zmm?usp=sharing" 
 moduleChallenge='Gulp Roast Coffee Webpage'
