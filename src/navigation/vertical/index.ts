@@ -95,15 +95,15 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/11',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 10: Interaction Design',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/10',
-    //   openInNewTab: false
-    // },
     {
-      title: 'Week 9: Information Architecture',
+      title: 'Week 10: Responsive Design',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/10',
+      openInNewTab: false
+    },
+    {
+      title: 'Week 9: Web Dev Intro',
       subject:"11",
       icon: SchoolIcon,
       path: '/week/9',

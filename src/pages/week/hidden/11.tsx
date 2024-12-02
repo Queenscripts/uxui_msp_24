@@ -33,11 +33,10 @@ const One = () => {
       activitiesHeader="UI Responsive Web Design and UI Testing" 
       activitiesLink="https://drive.google.com/drive/u/0/folders/1DCsWWDvdns20w-VVYQTtzqpLG5XF0iyL"
       day1Activities={[
-"https://drive.google.com/drive/u/0/folders/1o9wJV5WyKS5MWASHkoXLSV0qVQQMhBg9",
-"11.1-01-RWD-Layout-Challenge-Activity",
-"11.1-02-RWD-Navigation-Challenge",
-"11.1-03-RWD-Test",
-"11.1-04-RWD-Landing-Page-Challenge",
+"https://drive.google.com/drive/folders/10lwmuKMFlgLeqrMtoJvVrcnpXNnp-dcK",
+"11.1-02 IA Analysis and Intervention",
+"11.1-01 LATCH Analysis",
+
       ]}
       day2Activities={[
 "https://drive.google.com/drive/folders/16IL-E9RmgOiM7qQcu9IPDwA4kMMtBXrt",
