@@ -37,7 +37,7 @@ const One = () => {
           // `https://docs.google.com/presentation/d/e/2PACX-1vTob57Dy8N_stSfK0j9os0RFlxbwGOYsh2JNeS8774WZ3xq-Pzvvip8Cvc1NTkl5EaFg05NxjQEhgNy/embed?start=true&loop=true&delayms=5000`,
           // `https://docs.google.com/presentation/d/e/2PACX-1vSIyXx7oTTHVQPs5KeReKdL8iyzEYRnpwPHY1kZirrD1zWMgMM7uqKDwA-eWoGBD_kxih2Ltu__1lCF/embed?start=true&loop=true&delayms=5000`
         ]}
-        slideURL="https://drive.google.com/drive/folders/1Uinmo7vhlmteqrYAnszOWR599BulVHbv?usp=sharing"
+        slideURL="https://drive.google.com/drive/folders/1B3KGe2jtARP8SzhaZT2IRZsnJyY3sZoD?usp=sharing"
         moduleChallenge="Homepage UI Design and Testing"
         challengeDeliverables={`In this challenge, you'll apply your responsive design skills and your knowledge of using VS Code and GitHub to design and publish a website for Gulp Roast Coffee.`}
         moduleChallengeLink="https://docs.google.com/document/d/1Biu8sGgI6QTLu948t9oMFdQ7yKZh2ntmpV2-LCpfUJI/edit?tab=t.0"
