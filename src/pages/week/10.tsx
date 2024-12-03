@@ -9,7 +9,7 @@ const One = () => {
         activitiesHeader="Responsive Layouts & CSS Frameworks"
         activitiesLink="https://drive.google.com/drive/folders/1rasAvaa1FlIn5y9WXA2lxQ6Prd0nMMTl"
         day1Activities={[
-          "https://drive.google.com/drive/folders/1Hd1AqRhPn4HyC0YD0I2H4Ld_5QTPFGC1s",
+          "https://drive.google.com/drive/folders/1Hd1AqRhPn4HyC0YD0I2H4Ld_5QTPFGC1",
           "10.1-01 Grid-Based Layout Investigation",
           "10.1-02 CSS Flexbox Layout",
           "10.1-03 Build a Responsive Layout",
