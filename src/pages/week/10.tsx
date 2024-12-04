@@ -14,13 +14,13 @@ const One = () => {
           "10.1-02 CSS Flexbox Layout",
           "10.1-03 Build a Responsive Layout",
         ]}
-        //       day2Activities={[
-        // "https://drive.google.com/drive/folders/1MWovSwawyVUFNS6xJwyJ2D_gl8rDEzXB",
-        // "10.2-01 Get Used to Grid",
-        // "10.2-02 Oops, You Grid It Again",
-        // "10.2-04 Publish Jake's Eatery",
-        //       ]
-        //       }
+              day2Activities={[
+        "https://drive.google.com/drive/folders/1MWovSwawyVUFNS6xJwyJ2D_gl8rDEzXB",
+        "10.2-01 Get Used to Grid",
+        "10.2-02 Oops, You Grid It Again",
+        "10.2-04 Publish Jake's Eatery",
+              ]
+              }
         //       day3Activities={[
         //         "https://drive.google.com/drive/folders/1zsDJbKvHJ8r8EuoeRGXf0roLmpx9IjHc",
         //         "10.3-01 Getting Started With Bootstrap",
@@ -34,7 +34,7 @@ const One = () => {
         //       }
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSZ8bd4Q_nXAfNSPKu2HVc6M4Ie9m2PdGm7sz5n5hf1iHu9E0WbNp7qA-AGLvXRqL2MzEdJ5Bd0SYC3/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vTob57Dy8N_stSfK0j9os0RFlxbwGOYsh2JNeS8774WZ3xq-Pzvvip8Cvc1NTkl5EaFg05NxjQEhgNy/embed?start=true&loop=true&delayms=5000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vTob57Dy8N_stSfK0j9os0RFlxbwGOYsh2JNeS8774WZ3xq-Pzvvip8Cvc1NTkl5EaFg05NxjQEhgNy/embed?start=true&loop=true&delayms=5000`,
           // `https://docs.google.com/presentation/d/e/2PACX-1vSIyXx7oTTHVQPs5KeReKdL8iyzEYRnpwPHY1kZirrD1zWMgMM7uqKDwA-eWoGBD_kxih2Ltu__1lCF/embed?start=true&loop=true&delayms=5000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1B3KGe2jtARP8SzhaZT2IRZsnJyY3sZoD?usp=sharing"
