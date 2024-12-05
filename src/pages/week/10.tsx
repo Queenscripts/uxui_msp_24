@@ -21,21 +21,21 @@ const One = () => {
         "10.2-04 Publish Jake's Eatery",
               ]
               }
-        //       day3Activities={[
-        //         "https://drive.google.com/drive/folders/1zsDJbKvHJ8r8EuoeRGXf0roLmpx9IjHc",
-        //         "10.3-01 Getting Started With Bootstrap",
-        //         "10.3-02 Add a Navigation Bar",
-        //         "10.3-03 Add Containers, Rows, and Columns",
-        //        "10.3-04 Add Cards to Bootstrap",
-        //        "10.3-05 Forms and Modals",
-        //        "10.3-06 Explore Bootstrap Components"
+              day3Activities={[
+                "https://drive.google.com/drive/folders/1zsDJbKvHJ8r8EuoeRGXf0roLmpx9IjHc",
+                "10.3-01 Getting Started With Bootstrap",
+                "10.3-02 Add a Navigation Bar",
+                "10.3-03 Add Containers, Rows, and Columns",
+               "10.3-04 Add Cards to Bootstrap",
+               "10.3-05 Forms and Modals",
+               "10.3-06 Explore Bootstrap Components"
 
-        //       ]
-        //       }
+              ]
+              }
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSZ8bd4Q_nXAfNSPKu2HVc6M4Ie9m2PdGm7sz5n5hf1iHu9E0WbNp7qA-AGLvXRqL2MzEdJ5Bd0SYC3/embed?start=true&loop=true&delayms=5000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vTob57Dy8N_stSfK0j9os0RFlxbwGOYsh2JNeS8774WZ3xq-Pzvvip8Cvc1NTkl5EaFg05NxjQEhgNy/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vSIyXx7oTTHVQPs5KeReKdL8iyzEYRnpwPHY1kZirrD1zWMgMM7uqKDwA-eWoGBD_kxih2Ltu__1lCF/embed?start=true&loop=true&delayms=5000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vSIyXx7oTTHVQPs5KeReKdL8iyzEYRnpwPHY1kZirrD1zWMgMM7uqKDwA-eWoGBD_kxih2Ltu__1lCF/embed?start=true&loop=true&delayms=5000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1B3KGe2jtARP8SzhaZT2IRZsnJyY3sZoD?usp=sharing"
         moduleChallenge="Homepage UI Design and Testing"
