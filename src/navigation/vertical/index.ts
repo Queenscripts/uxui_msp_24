@@ -88,13 +88,14 @@ const navigation = (): VerticalNavItemsType => {
     //   icon: SchoolIcon,
     //   path: '/week/12',
     //   openInNewTab: false
-    // },{
-    //   title: 'Week 11: Responsive Web Design',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/11',
-    //   openInNewTab: false
     // },
+    {
+      title: 'Week 11: Responsive Web Design',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/11',
+      openInNewTab: false
+    },
     {
       title: 'Week 10: Responsive Design',
       subject:"11",
