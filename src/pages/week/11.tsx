@@ -60,7 +60,8 @@ const One = () => {
 //       ]
 //       }
       slidesLinks={[
-      `https://docs.google.com/presentation/d/e/2PACX-1vRjna6_u5NHhg4xaRgxvO31PicMGa0gxFtvRlYOlmVZwpQG1-7FNcRjrE51T6-J8zyCjzVOS95SGbgb/embed?start=true&loop=true&delayms=5000`
+      `https://docs.google.com/presentation/d/e/2PACX-1vRjna6_u5NHhg4xaRgxvO31PicMGa0gxFtvRlYOlmVZwpQG1-7FNcRjrE51T6-J8zyCjzVOS95SGbgb/embed?start=true&loop=true&delayms=5000`,
+      `https://docs.google.com/presentation/d/e/2PACX-1vQAZROveuwceFhD0uarwlSy4YvGfd6nN-Ni1zBmPGa6hrr4ZU43F3WcrdchFh5NS2KY0BsH5heiNM1w/embed?start=true&loop=true&delayms=5000`
         ]}
       slideURL="https://drive.google.com/drive/folders/1LRigcSlsRsu9Qi2dCZZ5wc-NXyQ-Gkh2?usp=sharing" 
       moduleChallenge='Gulp Roast Coffee Bootstrap Design'
