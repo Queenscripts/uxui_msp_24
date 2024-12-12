@@ -38,15 +38,15 @@ const One = () => {
 "11.1-01 LATCH Analysis",
 
       ]}
-//       day2Activities={[
-// "https://drive.google.com/drive/folders/16IL-E9RmgOiM7qQcu9IPDwA4kMMtBXrt",
-// "11.2-01-RWD-Website-Breakpoint-Activity",
-// "11.2-02-RWD-Image-Cropping-Activity",
-// "11.2-03-RWD-Homepage-WF-Challenge-Activity",
-// "11.2-03.1-user-persona",
-// "11.2-04-RWD-AB-Team-Testing-Activity"
-//       ]
-//       }
+      day2Activities={[
+"https://drive.google.com/drive/folders/172T6NuyvqaboA3H6XwCrQyvmvU_aiUZ_",
+"11.2-01 Card Sorting Content Cards",
+"11.2-02 Open Card Sorting",
+"11.2-03 Card Sorting Reorganization",
+"11.2-04 Figma Sitemap",
+"11.2-05 Desktop Navigation"
+      ]
+      }
 //       day3Activities={[
 // "https://drive.google.com/drive/folders/12XKUXkXFxu9v4uu76KS9Qa_qc4s_SQqF",
 // "11.3-01-Mobile-Blog-Mirror-Activity",
