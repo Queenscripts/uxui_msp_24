@@ -76,19 +76,21 @@ const navigation = (): VerticalNavItemsType => {
     //   icon: SchoolIcon,
     //   path: '/week/16',
     //   openInNewTab: false
-    // },{
+    // },
+    // {
     //   title: 'Week 13-15: Nonprofit Group Project',
     //   subject:"11",
     //   icon: SchoolIcon,
     //   path: '/week/13-15',
     //   openInNewTab: false
-    // },{
-    //   title: 'Week 12: Advanced UI',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/12',
-    //   openInNewTab: false
     // },
+    {
+      title: 'Week 12: Advanced UI',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/12',
+      openInNewTab: false
+    },
     {
       title: 'Week 11: Responsive Web Design',
       subject:"11",
