@@ -22,18 +22,18 @@ const One = () => {
           "12.2-03 Mobile UI Form Prototype"
         ]
         }
-        // day3Activities={[
-        //   "https://drive.google.com/drive/folders/1jRX1qI-sJZ5P8GddsjHiy26okN7E0Fh-",
-        //   "12.3-01 RWD Figma Layout",
-        //   "12.3-02 RWD Navigation",
-        //   "12.3-03 RWD Navigation Testing",
-        //   "12.3-04 RWD Landing Page"
-        // ]
-        // }
+        day3Activities={[
+          "https://drive.google.com/drive/folders/1jRX1qI-sJZ5P8GddsjHiy26okN7E0Fh-",
+          "12.3-01 RWD Figma Layout",
+          "12.3-02 RWD Navigation",
+          "12.3-03 RWD Navigation Testing",
+          "12.3-04 RWD Landing Page"
+        ]
+        }
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vTVliCQW6_TVOxBtEGt0BJXBVOI6fU8KuLiFnkzMPZ9ET_A8Po0XoNo3FXMJ5XnNQi4eBF4Mhama_0d/embed?start=true&loop=true&delayms=5000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vSrxBvDUwjiQIbjvnqN2wbPYgvurm-dfSNm4Wg8kffRZZuE4WH_jKbcRseyzLf3aBFJiTia8V9ZFU-k/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vRY5Syuh075MpXGXaV5FE1c-HJ59pUIs1Ams0sbJX_sc4njkhzxVEwnVyLz8Y61kBIndxXd7LSK-ZPz/embed?start=true&loop=true&delayms=5000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vRY5Syuh075MpXGXaV5FE1c-HJ59pUIs1Ams0sbJX_sc4njkhzxVEwnVyLz8Y61kBIndxXd7LSK-ZPz/embed?start=true&loop=true&delayms=5000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1A-7_c4q1ZOgp_-sEU7LfHGP3XiPtyq05?usp=sharing"
 
