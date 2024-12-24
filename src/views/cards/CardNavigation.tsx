@@ -48,7 +48,7 @@ const CardNavigation = ({ video, videoLinks, moduleTitle, activitiesHeader, slid
       <Card>
         <TabContext value={value}>
           <TabList onChange={handleChange} aria-label='card navigation example'>
-            <Tab value='1' label='Activities' />
+            {activitiesLink && <Tab value='1' label='Activities' />}
             <Tab value='2' label='Slides' />
             {moduleChallengeLink && <Tab value='3' label='Module Challenge' />}
             {glossaryTerms && <Tab value='4' label='Glossary' />}
