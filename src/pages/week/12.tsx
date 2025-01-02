@@ -7,7 +7,6 @@ const One = () => {
       <CardNavigation
         moduleTitle='Week 12: Atomic Design'
         activitiesHeader="Design Systems & Responsive Web Design"
-        activitiesLink=""
         day1Activities={[
           "https://drive.google.com/drive/folders/1Gk6DsAKDsGSPe6BXk1ftEbvsb8TT5W5a",
           "12.1-01 Atomic Design Puzzle",

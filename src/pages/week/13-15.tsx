@@ -78,13 +78,14 @@ const One = () => {
          
         // ]}
         moduleTitle="Weeks 13-15: Week 15"
-        // activitiesHeader="Group Project Prototyping Phase"
+        activitiesHeader="Group Project Prototyping Phase"
         // activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vTafLxMZLuCde4RAX4aZDU1fiQ2T4iYq9qG4fuJ7CfNjqUoJZq4gCHmhT6EUU_2-qK2qX5AgJyK6jKU/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vRtcEmZ0bh_AOGazPCoLY2_gkgAwrXjKBzt-CA6FwpYEn2SuL6eu_iUbw-YoQFSbDyaPTwZ7n_byInc/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRtcEmZ0bh_AOGazPCoLY2_gkgAwrXjKBzt-CA6FwpYEn2SuL6eu_iUbw-YoQFSbDyaPTwZ7n_byInc/embed?start=false&loop=false&delayms=10000`,
           // `https://docs.google.com/presentation/d/e/2PACX-1vTqVD_2lb2Q5vYhQ1JrWIFWGn87JuElBKvJJEVO06ROeOCNscS_EHBTMWoof0w3H4p4oGzVCdDDXrNL/embed?start=false&loop=false&delayms=10000`,
         ]}
+        day2Activities={[`https://drive.google.com/drive/folders/1E_FF7WxMCr2JrAT9f1JE-FV687cOMsAo`,"13.2-01 Design Sprints Day 1", "13.2-02 Design Sprints Day 2"]}
         slideURL="https://drive.google.com/drive/folders/16awTdNZQVOnhYzrfrF5iHuat2sYyz9iE?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1QIypg69qWY_YfNUsI20up4-66dlMZS5flMk3XjQblpg/edit?tab=t.0"
         challengeDeliverables="In this Challenge, you and your team will kick off a redesign of an actual nonprofit website. (You&lsquo;ll continue to build on this project in upcoming Challenges.) In your design career, you&lsquo;ll often work on existing products and how to best meet user needs. In this Challenge, you&lsquo;ll rapidly innovate and collaborate with others to develop ideas for potential implementation. This project will showcase your skills as a creative thinker, a collaborator, and a designer who can follow through on projects of varying sizes."
