@@ -65,7 +65,7 @@ const CardNavigation = ({
       <Card>
         <TabContext value={value}>
           <TabList onChange={handleChange} aria-label="card navigation example">
-            {day1Activities || day2Activities && <Tab value="1" label="Activities" />}
+            {(day1Activities || day2Activities|| day3Activities )&& <Tab value="1" label="Activities" />}
             <Tab value="2" label="Slides" />
             {moduleChallengeLink && <Tab value="3" label="Module Challenge" />}
             {glossaryTerms && <Tab value="4" label="Glossary" />}

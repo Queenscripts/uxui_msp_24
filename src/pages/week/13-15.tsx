@@ -70,7 +70,7 @@ const One = () => {
     
 
       
-      */}
+     
 
 <CardNavigation
         // video={true}
@@ -146,7 +146,7 @@ const One = () => {
 
       <br />
       <br />
-{/* 
+
       <CardNavigation
         moduleTitle="Weeks 13-15: Week 14"
         activitiesHeader="Content Design"
@@ -246,7 +246,7 @@ const One = () => {
       /> */}
 
 <br />
-{/* 
+
       <CardNavigation
         moduleTitle="Weeks 13-15: Week 13"
         activitiesHeader="Group Project | Design Sprints "
@@ -254,23 +254,23 @@ const One = () => {
           "https://drive.google.com/drive/folders/1ojrvsCJ3PZYCWVh8RX1gZZNeEsX-ZJpc",
           "13.1-01 Project 2 Proposal",
         ]}
-        // day2Activities={[
-        //   "https://drive.google.com/drive/folders/1E_FF7WxMCr2JrAT9f1JE-FV687cOMsAo",
-        //   "13.2-01 Design Sprints Day 1",
-        //   "13.2-02 Design Sprints Day 2"
+        day2Activities={[
+          "https://drive.google.com/drive/folders/1E_FF7WxMCr2JrAT9f1JE-FV687cOMsAo",
+          "13.2-01 Design Sprints Day 1",
+          "13.2-02 Design Sprints Day 2"
 
-        // ]}
-        // day3Activities={[
-        //   "https://drive.google.com/drive/folders/1uuDrybCFPVo7mNE7U-Iz-t21lwUkhM25",
-        //   "13.3-01 Design Sprint Day 3",
-        //   "13.3-02 Design Sprint Day 4",
-        //   "13.3-03 Design Sprint Day 5"
+        ]}
+        day3Activities={[
+          "https://drive.google.com/drive/folders/1uuDrybCFPVo7mNE7U-Iz-t21lwUkhM25",
+          "13.3-01 Design Sprint Day 3",
+          "13.3-02 Design Sprint Day 4",
+          "13.3-03 Design Sprint Day 5"
 
-        // ]}
+        ]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vTafLxMZLuCde4RAX4aZDU1fiQ2T4iYq9qG4fuJ7CfNjqUoJZq4gCHmhT6EUU_2-qK2qX5AgJyK6jKU/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vRtcEmZ0bh_AOGazPCoLY2_gkgAwrXjKBzt-CA6FwpYEn2SuL6eu_iUbw-YoQFSbDyaPTwZ7n_byInc/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vTqVD_2lb2Q5vYhQ1JrWIFWGn87JuElBKvJJEVO06ROeOCNscS_EHBTMWoof0w3H4p4oGzVCdDDXrNL/embed?start=true&loop=true&delayms=5000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRtcEmZ0bh_AOGazPCoLY2_gkgAwrXjKBzt-CA6FwpYEn2SuL6eu_iUbw-YoQFSbDyaPTwZ7n_byInc/embed?start=true&loop=true&delayms=5000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vTqVD_2lb2Q5vYhQ1JrWIFWGn87JuElBKvJJEVO06ROeOCNscS_EHBTMWoof0w3H4p4oGzVCdDDXrNL/embed?start=true&loop=true&delayms=5000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/16awTdNZQVOnhYzrfrF5iHuat2sYyz9iE?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1QIypg69qWY_YfNUsI20up4-66dlMZS5flMk3XjQblpg/edit?tab=t.0"
@@ -398,7 +398,7 @@ const One = () => {
               "Brief, written descriptions of features or functionality from an end-user perspective. User stories are used in Agile software development to capture requirements and focus on the user's needs and goals.",
           },
         ]}
-      /> */}
+      />
     </ProtectedRoute>
 
   );
