@@ -147,7 +147,8 @@ const One = () => {
       <br />
       <br />
 
-      <CardNavigation
+     */}
+  <CardNavigation
         moduleTitle="Weeks 13-15: Week 14"
         activitiesHeader="Content Design"
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
@@ -182,69 +183,10 @@ const One = () => {
             definition:
               "A method employed to systematically categorize and group data into themes or patterns, aiding in data analysis and interpretation.",
           },
-          {
-            term: "Behavioral Archetypes",
-            definition:
-              "Common and representative user behaviors that offer valuable insights into user needs and motivations, facilitating a deeper understanding of user preferences and actions.",
-          },
-          {
-            term: "Creative Matrix",
-            definition:
-              "An innovative tool utilized to spark and cultivate design concepts by integrating diverse elements or variables, fostering creativity and idea generation in the design process.",
-          },
-          {
-            term: "Empathy Framework",
-            definition:
-              "A structured approach designed to foster designers' understanding of users' emotions, thoughts, and behaviors, enabling empathetic design solutions that resonate with user experiences and needs.",
-          },
-          {
-            term: "HMW Statement",
-            definition:
-              "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
-          },
-          {
-            term: "Ideate",
-            definition:
-              "A 'How Might We' statement reframes a problem as an opportunity to inspire innovative solutions and design thinking. For example, How might we re-create the travel planning experience online to help users spend less time packing?",
-          },
-          {
-            term: "POV Statement",
-            definition:
-              "A 'Point of View' statement that articulates user needs, insights, and perspectives, guiding the design process towards addressing user issues and creating impactful solutions. Priority Matrix: A tool to rank and prioritize items according to their significance and time sensitivity, aiding in effective decision-making and task management.",
-          },
-          {
-            term: "Storyboard",
-            definition:
-              " A visual sequence of illustrations depicting critical moments or interactions in a user's journey or experience with a product or service, helping to visualize and understand the user's interaction flow.",
-          },
-          {
-            term: "Synthesize",
-            definition:
-              "The process of merging and integrating various elements or information to create a unified and coherent whole, facilitating clarity and understanding in complex design or problem-solving processes.",
-          },
-          {
-            term: "User Flow",
-            definition:
-              " A graphical depiction illustrating the sequential steps a user follows to accomplish a specific task within a system or application, helping to visualize the user's interaction path.",
-          },
-          {
-            term: "User Insights",
-            definition:
-              "Valuable findings derived from user research that guide and shape design decisions, ensuring user-centered solutions and experiences.",
-          },
-          {
-            term: "User Journey",
-            definition:
-              "A visual narrative mapping out a user's complete experience with a product or service, providing insights into the user's interactions, emotions, and touchpoints throughout the entire journey.",
-          },
-          {
-            term: "Wireframes",
-            definition:
-              "Simplified and visual blueprints showcasing the skeletal structure and layout of a website or application, focusing on functionality and content placement during the design process.",
-          },
+       
         ]}
-      /> */}
-
+      />
+<br />
 <br />
 
       <CardNavigation
