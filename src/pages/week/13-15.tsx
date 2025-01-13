@@ -70,9 +70,7 @@ const One = () => {
     
 
       
-     
-
-<CardNavigation
+     <CardNavigation
         // video={true}
         // videoLinks={[
          
@@ -144,10 +142,24 @@ const One = () => {
         // ]}
       />
 
+
+
+
+
       <br />
       <br />
 
      */}
+
+
+
+
+
+
+
+
+
+
   <CardNavigation
         moduleTitle="Weeks 13-15: Week 14"
         activitiesHeader="Content Design"
@@ -163,16 +175,16 @@ const One = () => {
           "14.2-01 Brand Visual Identity",
           
         ]}
-        // day3Activities={[
-        //   "https://drive.google.com/drive/folders/1twY7QVW2Sb5q2vuHv0STjUY_30bJMvoo",
-        //   "14.3-01 Brand Positioning Statements",
-        //   "14.3-01 Brand Positioning Statements Template",
-        //   "14.3-02 Brand Voice and Tone Matrix"
-        // ]}
+        day3Activities={[
+          "https://drive.google.com/drive/folders/1twY7QVW2Sb5q2vuHv0STjUY_30bJMvoo",
+          "14.3-01 Brand Positioning Statements",
+          "14.3-01 Brand Positioning Statements Template",
+          "14.3-02 Brand Voice and Tone Matrix"
+        ]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vRa4UB310N5S_Ta3-U0mDA-H8b10VqVE-OwU_g9ppTr16JVn-8BLitcKjCjnEXru7E6XApfg6m67M8t/embed?start=true&loop=true&delayms=5000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vT2tOklnZKRplaKmhkOm6xdyZOvUhugyMqC2d8xJs_Ir17TwC2zqUsJ2NwpTYwZnx-yxp9wNmLmcFhl/embed?start=true&loop=true&delayms=5000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vQBlYvF2S7p1mU7IRuMhc6CpWhyFZEiidNSmONhakoV5B0oTOrfDm5Jrt-QjEYrkJTFOueqDKMhszYX/embed?start=true&loop=true&delayms=5000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQBlYvF2S7p1mU7IRuMhc6CpWhyFZEiidNSmONhakoV5B0oTOrfDm5Jrt-QjEYrkJTFOueqDKMhszYX/embed?start=true&loop=true&delayms=5000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1f3Ax8yHfsRL-MUi33d83Ex_JGUupyHcK?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/1LXegaHDZLdim1NEdeSX-n01rz7T-1aTVYD3yXkL8rgk/edit?tab=t.0"
