@@ -78,10 +78,10 @@ const navigation = (): VerticalNavItemsType => {
     //   openInNewTab: false
     // },
     {
-      title: 'Week 13-15: Nonprofit Group Project',
+      title: 'Week 13-17: Nonprofit Group Project',
       subject:"11",
       icon: SchoolIcon,
-      path: '/week/13-15',
+      path: '/week/13-17',
       openInNewTab: false
     },
     {
