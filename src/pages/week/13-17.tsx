@@ -86,6 +86,7 @@ const One = () => {
         // activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSQXM5pt8tHIvzRZj03YjfJFeoayRphoEATgOZMlgE0aDrtPZd1qXetA_4eEG8DTy9Ui5DKzc0KqwJi/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vSrApAl6vCt4z7iqsBhLlD8ClicV3JQPwT81CWp1-wpdRrgqo7fBLJUMOJ84Wds6CYcYy2i-B_glieQ/embed?start=false&loop=false&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1ydgUTsr1kw_VgcLFGIKFRTqRNxxHbpTj?usp=drive_link"
         moduleChallengeLink="https://docs.google.com/document/d/1VUzqH2o1gvtQpPUhokA5pybAsd1LdQ19onJZXA7iEWY/edit?tab=t.0"
