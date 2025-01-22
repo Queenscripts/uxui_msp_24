@@ -1,79 +1,108 @@
-
-// ** MUI Imports
-import Grid from '@mui/material/Grid'
-
-// ** Icons Imports
-import Poll from 'mdi-material-ui/Poll'
-import CurrencyUsd from 'mdi-material-ui/CurrencyUsd'
-import HelpCircleOutline from 'mdi-material-ui/HelpCircleOutline'
-import BriefcaseVariantOutline from 'mdi-material-ui/BriefcaseVariantOutline'
-
-// ** Custom Components Imports
-import CardStatisticsVerticalComponent from 'src/@core/components/card-statistics/card-stats-vertical'
-
-// ** Styled Component Import
-// import ApexChartWrapper from 'src/@core/styles/libs/react-apexcharts'
-
-// ** Demo Components Imports
-// import Table from 'src/views/dashboard/Table'
-// import Trophy from 'src/views/dashboard/Trophy'
-// import TotalEarning from 'src/views/dashboard/TotalEarning'
-// import StatisticsCard from 'src/views/dashboard/StatisticsCard'
-// import WeeklyOverview from 'src/views/dashboard/WeeklyOverview'
-// import DepositWithdraw from 'src/views/dashboard/DepositWithdraw'
-// import SalesByCountries from 'src/views/dashboard/SalesByCountries'
-import CardNavigation from 'src/views/cards/CardNavigation'
-import ProtectedRoute from 'src/components/ProtectedRoute'
-import React from 'react'
+import CardNavigation from "src/views/cards/CardNavigation";
+import ProtectedRoute from "src/components/ProtectedRoute";
+import React from "react";
 const One = () => {
   return (
     <ProtectedRoute>
-       <CardNavigation 
-      moduleTitle='Weeks 22-24:  Final Group Project' 
-      activitiesHeader="Final Group Project Work!" 
-      activitiesLink="https://drive.google.com/drive/folders/1hJA2hrSZBxK7xxP2shl0ic6kVjTiqqW_"
-      day1Activities={[
-  
-        "https://docs.google.com/document/d/1TieLrmuQTvpW334lRt8ktQyIT9FckLgSbdCBP7vKgD4/edit",
-        "Project 3 Proposal Doc",
-      ]}
-      day2Activities={[
-        "https://docs.google.com/document/d/17_lusJ8g5BbBnfPu3q3sbu5ie9ZVrEoiGFMpF6dxyNA/edit",
-        "Gantt Chart"
-      ]
-      }
-      day3Activities={[
-        "https://docs.google.com/document/d/1qS-y0hHAejaFFWIJILpiZ73m0mgz3Y3Y-ahaYYG3j6E/edit",
-        "Front End Prototyping"
-      ]
-      }
-      slidesLinks={[
-        `https://docs.google.com/presentation/d/e/2PACX-1vSs4fWyxoLlxra9H7za34cxhpZcIQKkldPKIezqvlOsEPoKMyFSDQFP_ZyRyCx3ZEK0NkFYWsE8OmAK/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vRlatoiz46TSrXacL0qirHtLNox6GEXuu1aejxSJFI5vJGM0kR32LeNr0R354PmNWDx8tS3NSjM58dk/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vSFAkWqMVqyPUiV121z2fc_xh3XufxIEMPKFT7Sx1uRlCoBrC9F0MqQv_sCenjY6VIlk2bJJ51A4FO9/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vQV58xGouhnxTbNvN4Z4pE93jqiDWXGjWaWm7SHQ2uTD6-JaUPP7Mbek5-LN4bLWHUXm8CAtEB-yfJ2/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vSHqxw1YAPNvhU1uXVWkNIpueLpX-7qWn14ujD2z5mncSRrJY8oJOoi-tUWKbkYI4WwEupjg8FpjAbC/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vSIB30FoJHli91glDOl1i-nO7KPnl2Sgv2ez-1luq90uzJ5gi63U1DwwUaz8T7Re-KlcmSURas5XGag/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vQFGl86Fh1ZZXjSlNC78w4dWe8kn_CTRsMZ_yf7uxCXP1b43XmKkrkPKBwcWWa3nDf2SPv_uE1kWGHA/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vQNKUQfs62UwEzZJKlGatYtOubECbXgNxjmZsfEm6OC0eGA9aZeOtii_I537X8l6Uj3FR35id9ZnZzX/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vTwcmAMGcsvY_iqGi-MCajf2KesmUV_X2P6gE7DJzCqRHTcaX2tRLUN_5rovP4Zk_YbpeC-GZM_JNWF/embed?start=false&loop=false&delayms=3000`
+      {/* 
+      
+     
+      <br />
+      <br />
 
 
-       
-            ]}      
-      slideURL="https://drive.google.com/drive/folders/1fpz54_M0qowG_I6jwAX5NTocs6k_iKbz?usp=sharing" 
-      moduleChallenge='Final Project Work'
-      challengeDeliverables="
-      Turn in your final project slides and work
-      "
-      //  moduleChallengeLink='https://docs.google.com/document/d/1PvH2yXy-M40wePu0-BlIx-KkA0H0KR-Iee1FFqKOwOg/edit#heading=h.ijfa06yoetmh'
-    />
+ 
+<CardNavigation
+        moduleTitle="Weeks 22-24: Week 24"
+        activitiesHeader="Final Group Project Work"
+        day1Activities={[
+          "https://drive.google.com/drive/folders/14Lhi-62I3cJpgo8aRbdQgryZc0Ksnrap",
+          "24.1-01 Project 3 Presentation Proposal",
+          "24.1-02 Project 3 Self-Evaluation",
+          "Project 3 Presentation Outline",
+        ]}
+
+        slidesLinks={[
+          `https://docs.google.com/presentation/d/e/2PACX-1vRRbhZJ9f9Bo8Zhtw60t3WQTbTomSe3K57drpghmJGCGLLpITmfBcHb944rf1u_lHYeZG-2xBEtIeXd/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vT0LAv3X1TcH5RMS6MKN9LE62TA6ewnJTkCYsCUBB9ZpIPhTBUBEwjBw5dOZ_kVJe9-jxCvVbbi6GrQ/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vQx-Qm--3fOjSZBqtUZ6XXPhetfNq7SmDXzbsl-J2k8M9crA5a-ulVkkv-VyTFfoT4VOxTMT5kQbe-F/embed?start=false&loop=false&delayms=10000`,
+        ]}
+        slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
+        moduleChallengeLink="https://docs.google.com/document/d/108HPZ1JGy29xhsr0VHp_gLwplXOrUIMYwIb2Dm6HGdk/edit?tab=t.0#heading=h.bv6msf9tz0bm"
+        challengeDeliverables="For this final group project, you can design for any modality: websites, mobile app, Apple or Android watch, virtual reality, augmented reality, or voice interface. Your group will execute a high-fidelity clickable prototype (Figma) and code one to three responsive web pages through FE development (HTML/CSS/JavaScript), then present that process. "
+ 
+      />
 
 
+<CardNavigation
+        moduleTitle="Weeks 22-24: Week 23"
+        activitiesHeader="Final Group Project Work"
+        day1Activities={[
+          "https://drive.google.com/drive/folders/1OcQiOVDuu1SlcE_-JOvdnImz6sLsJe4c",
+          "23.1-01 Statement of Work",
+          "23.1-01 Statement of Work Template",
+          "23.1-02 Preparing Web Assets",
+        ]}
+        // day2Activities={[
+        //   "https://drive.google.com/drive/folders/1qQJVY3vl86rdb7IAQngcfJIPuGLrHfHv",
+        //   "23.2-01. Peer Review",
+        // ]}
+        // day3Activities={[
+        //   "https://drive.google.com/drive/folders/16t8fzSju4ywSMRQvS7lN3dEgeSqiZ8PT",
+        //   "23.3-01 Peer Feedback",
+        // ]}
+        slidesLinks={[
+          `https://docs.google.com/presentation/d/e/2PACX-1vQZBOeOnTJLVUPZQjgTaLS9XUH60VQ-P84M1s6IClPyRvJ2SJMK0gObq5TSUlsaARy9FCK4xUjosPw6/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vRA5GkW-ARR8QzKjCEZNg_b0UCea9EPkMPcfNLNEfnHRoDk4Me-JrSisoYFGDIHk2DGrM4gxIr0dmfj/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vTLu8Ej86WqWb-wOJxTHTexxMDEvd7nnxRq8pjU8WkXNhguGydwVz4zEMj9EO_blzp5HUpDPrFs9VZW/embed?start=false&loop=false&delayms=10000`,
+        ]}
+        slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
+        // moduleChallengeLink="https://docs.google.com/document/d/1QIypg69qWY_YfNUsI20up4-66dlMZS5flMk3XjQblpg/edit?tab=t.0"
+        // challengeDeliverables="You and your team will kick off a redesign of an actual nonprofit website. (You&apos;ll continue to build on this project in upcoming Challenges.) "
+ 
+      />
+
+
+
+     */}
+
+
+<br />
+<br />
+
+      <CardNavigation
+        moduleTitle="Weeks 22-24: Week 22"
+        activitiesHeader="Final Group Project"
+        day1Activities={[
+          "https://drive.google.com/drive/folders/1pnI-NeRSqFnaRpS09XLyEG3usiaHWimN",
+          "22.1-01 Project Kickoff",
+          "22.1-02 Brainstorming",
+          "22.1-03 Gantt Charts",
+          "22.1-04 Project Proposal"
+        ]}
+        // day2Activities={[
+        //   "https://drive.google.com/drive/folders/1HigQdaL_8BRUvxHfCNfpzGO6zw9aR_20",
+        //   "22.2-01 Iterate Gantt Chart",
+        //   "AMA Topic Sign-Up"
+
+        // ]}
+        // day3Activities={[
+        //   "https://drive.google.com/drive/folders/1LmB2Ixv7VM79QzPjKeQGvODPucg7RGKw",
+        //   "22.3-01 Peer Feedback",
+        //   "Instructor Demo: AMA Guidance",
+        // ]}
+        slidesLinks={[
+          `https://docs.google.com/presentation/d/e/2PACX-1vSZI5UT1F7iNc2EaNQuktz0lt0tMh8Jf2e5-l1JR-IKILf2JWRVdlgX_qv26kpZYOdWHm0znwLHhvFb/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vSKQwaQMjrOde2F-r0KX2K6eHbPbILWuCUbhl_Fd-NmZrtwbmzuiF258rQ6xo33lyri3mMk1dI5uyys/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vTM3EoiMvyb3EIWSZWd87YLO8kf8AnatHIZJn5lXTZwUCRURtraGadwRGkWJ6U4CHnhU1o12Ypy-3kG/embed?start=false&loop=false&delayms=10000`,
+        ]}
+        slideURL="https://drive.google.com/drive/folders/19VIpEFW-4IKfrQ1YCNt-rjnDc8vr4mA5?usp=drive_link"
+      
+ 
+      />
     </ProtectedRoute>
 
+  );
+};
 
-  )
-}
-
-export default One
+export default One;

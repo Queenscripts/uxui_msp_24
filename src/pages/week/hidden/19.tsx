@@ -29,44 +29,42 @@ const One = () => {
   return (
     <ProtectedRoute>
     <CardNavigation 
-      moduleTitle='Weeks 19: jQuery' 
+      moduleTitle='Weeks 19: Publish Your Portfolios' 
       activitiesHeader="Let's Javascript!" 
       activitiesLink="https://drive.google.com/drive/folders/1loJySCvir5ePThTWjSFe7V2lkscHLm8S"
       day1Activities={[
-        "https://drive.google.com/drive/folders/1t3HAdP40Tqc-OtHbd9DzE7Tm5BEcxuTX",
-        "19.1-01-Hello World...Again!",
-        "19.1-02-Understanding Variables",
-        "19.1-03-Using jQuery",
-        "19.1-04-on Function",
-        "19.1-05-Build a toggle"
+        "https://drive.google.com/drive/folders/147oYLactwh4-CO3yL1T4jr_gREPlnWcn",
+        "19.1-01 Hosting Technologies",
+        "19.1-02 Portfolio Iterations",
+       "19.1-03 Design Studio"
       ]}
       day2Activities={[
-      "https://drive.google.com/drive/folders/1NFlB_AOZv-6gqsU8r2a9kiDQeOfz4Bn_",
-      "19.2-01-Using Conditionals",
-      "19.2-02-Writing jQuery Conditionals",
-      "19.2-03-To Do App"
+      "https://drive.google.com/drive/folders/1z7M0Nm2fcBRCGFIkcx9SGzdrptl2DQ6I",
+      "19.2-01 Cognitive Walkthrough",
+      "19.2-02 Professional Networking",
+      "19.2-03 Design Studio"
       ]
       }
       day3Activities={[
-     "https://drive.google.com/drive/folders/1qlPHllpE5_TTG_pF_uL3J0pZLyjCuZrb",
-     "19.3-01-jQuery-smart-accordion",
-     "19.3-02-jQuery-Drop-Down-Search",
-     "19.3-03-jQuery-Preloader"
+     "https://drive.google.com/drive/folders/1VX4ebR_toJPOe1DtPgFFRsfVcPhp5QdL",
+     "19.3-01 Hiring Manager Persona",
+     "19.3-02 Design Portfolio KPIs",
+     "19.3-03 Google Analytics"
       ]
       }
       slidesLinks={[
-  `https://docs.google.com/presentation/d/e/2PACX-1vTmsF9HoY6v00R-Ide9GU_W0lwDc-Mhg-enSzAfeSHP0yFAnKigxIDO2BO1daq3LF973cd3IrGlFG9W/embed?start=false&loop=false&delayms=3000`,
-  `https://docs.google.com/presentation/d/e/2PACX-1vSPaWXjE4kvinJIWKwdESJ_LPUd--rcDR1jKSxjPLyZMBO3GadJTxmyKaFo-dJreTWByUPQrs_WmXi_/embed?start=false&loop=false&delayms=3000`,
-  `https://docs.google.com/presentation/d/e/2PACX-1vS0DZnM-LbD3Uz--aUduST4fALQcjg6BkNISLWaLirI3qobDP2WzcBUMRz2oMDlVA-NoAWd-ZZxuZlH/embed?start=false&loop=false&delayms=3000`
+  `https://docs.google.com/presentation/d/e/2PACX-1vTi_wAWEEK_byPuhEFJq4VmIU7niEt1ziRvR_mKcmUEV1qVa-nODJGom6MuLxeCtgy6rtc8kXC9-U8U/embed?start=false&loop=false&delayms=10000`,
+  `https://docs.google.com/presentation/d/e/2PACX-1vRIbgexDfQPKx7YTDK8a9pK06-o7EKFOJjJT8QBKErTJs0Rr5DrfAgtjRGi1nglF_Id88sU1P9B7iiG/embed?start=false&loop=false&delayms=10000`,
+  `https://docs.google.com/presentation/d/e/2PACX-1vSLkMYOxiINNynso6qMnR-T4meoppxJOGYonhLrJPALdqh-dPtSeYWbB3tObtPtF7TQFB9tOU3yEohM/embed?start=false&loop=false&delayms=10000`
         ]}
-      slideURL="https://drive.google.com/drive/folders/1SgEhRRrLDpWsbwxB96_hyc0PQBi7YRhl?usp=drive_link" 
-      moduleChallenge='Add interactivity to your portfolio code'
+      slideURL="https://drive.google.com/drive/folders/1Zin3_OzhU7bR_oa2jU-OfwXSB9QUoSC-?usp=sharing" 
+      moduleChallenge='Publishing a Portfolio'
       challengeDeliverables="
 
-
+You’ll take the portfolio you designed and build it into a live online portfolio site. To do this, you’ll assess site-hosting technologies. From there, you’ll choose the hosting technology that best fits the needs of your site. You’ll then take the first step toward site building, which is to set up the basic file structure for your site.
 
       "
-       moduleChallengeLink='https://docs.google.com/document/d/177QCHxeBkdwm_aXa-NqQWO4Zq-zfrDIroDUnDJRo9ek/edit#heading=h.2q1rejctsob6'
+       moduleChallengeLink='https://docs.google.com/document/d/18w1MdLpzDy3rmkaoVJqWYpOwdtnYCNutDy86Pu1RFxk/edit?tab=t.0'
     />
     </ProtectedRoute>
 

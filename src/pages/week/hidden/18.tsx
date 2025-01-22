@@ -28,47 +28,40 @@ import React from 'react'
 const One = () => {
   return (
     <ProtectedRoute>
-   <CardNavigation 
-      moduleTitle='Weeks 18: CSS Flexbox' 
-      activitiesHeader="Let's CSS!" 
+ <CardNavigation 
+      moduleTitle='Weeks 18: Portfolio and Case Study Week' 
+      activitiesHeader="Let's build those portfolios" 
       activitiesLink="https://drive.google.com/drive/folders/1loJySCvir5ePThTWjSFe7V2lkscHLm8S"
       day1Activities={[
-        "https://drive.google.com/drive/folders/1OlPR7WkX_7uc5IXhus4f_htHCIE4TpwA",
-        "18.1-01-Your-First-Flex-Layout",
-        "18.1-02-Aligning-Flex-Items",
-        "18.1-03-Jake's Eatery"
+        "https://drive.google.com/drive/folders/1lN8oggFgzdCvsgXPfIZvNfBVvJlVQimu",
+        "18.1-01 Portfolio Analysis",
+        "18.1-01 Portfolio Analysis Notes",
+        "18.1-02 Case Study Planning",
+        "18.1-02 Case Study Planning Sheet"
       ]}
-      day2Activities={[
-      "https://drive.google.com/drive/folders/1UZbz-RXdSf6F4tJSqWn3q60yrgzY4E_9",
-      "18.2-01-CSS-Grid-Layouts",
-      "18.2-02-Extending-CSS-Grid",
-      "18.2-03-Writing-Custom-Media-Query-Breakpoints"
-
-      ]
-      }
-      day3Activities={[
-       "https://drive.google.com/drive/folders/1AN_Q0YhWPveI5mmoWGfaOAJ7aQw_zTZr",
-       "18.3-01-Rotations And Scaling",
-       "18.3-02-CSS Transition Basics",
-       "18.3-03-Creating CSS Keyframe Animations"
-
-      ]
-      }
+      // day2Activities={[
+      //   "https://drive.google.com/drive/folders/1slCiYtjVA2O93hWPgZ5aRBrj7FdUT9C5",
+      //   "18.2-01 Mock Interview",
+      //   "18.2-01 Skills Tracker",
+      //   "18.2-02 Skills Inventory Iteration",
+      // ]
+      // }
+      // day3Activities={[
+      //   "https://drive.google.com/drive/folders/1Iyn76CpOvlJs9RBLr7g4eZKZi_YvlpiY",
+      //   "18.3-01 Whiteboard Exercise",
+      // ]
+      // }
       slidesLinks={[
-  `https://docs.google.com/presentation/d/e/2PACX-1vRCYQkp7a_EM79FSI1V00GNLLReajVpQPAZ-07JLiK87x5aRI82bsUAM0qzXLetCnoumzfQO9qsA0fa/embed?start=false&loop=false&delayms=3000`,
-  `https://docs.google.com/presentation/d/e/2PACX-1vQePYrJYifgHZcyPLVrXEGjF6o5vGwlCjyhoalvz3kE9uPdq0veG9j40X8aCvQPWBWMGbQtEilVP3H3/embed?start=false&loop=false&delayms=3000`,
-  `https://docs.google.com/presentation/d/e/2PACX-1vSNe8u0nY_zBvLuxQuKypiMucY7ypdNYZn-cgfEH6fIV1i-ma_9NDY-36I9fSNSNTQY-cemdovlA6Hn/embed?start=false&loop=false&delayms=3000`
- 
+  `https://docs.google.com/presentation/d/e/2PACX-1vSPxzx3QL0IpV4EHmaSRGVQvUkIY4KQ13IUBk7Nl2LbKkAT5oi8r0rvqTy-X_5uo9nX8qTJZcfXScFG/embed?start=false&loop=false&delayms=10000`,
+  // `https://docs.google.com/presentation/d/e/2PACX-1vSsmtzd-GViIbFn8au18Fq3PZfvLVe4ZezC_-TkfONpcE5cPhtt89gb1jxKMiiSVieXUDsXIzGxpmM1/embed?start=false&loop=false&delayms=10000`,
+  //     `https://docs.google.com/presentation/d/e/2PACX-1vQ1sLABmtMV48fPf0QkzNzVNYnsHG1-juthe2c0RfUWlmu2uTPAuN8icFKn3H9s7R1ObrgKnana8sk6/embed?start=false&loop=false&delayms=10000`
         ]}
-      slideURL="https://drive.google.com/drive/folders/1a8Vv8lb3hMQTKDprgKvqOqeM5ELq0uWI?usp=sharing" 
-      moduleChallenge='Finish your portfolio - Iterate on the code'
-      challengeDeliverables="
-
-
-
-      "
-       moduleChallengeLink='https://docs.google.com/document/d/1Fd4hTrCtgg7Q4v60r5-rX8H2JD9FjP67PJxK5gs7G6U/edit#heading=h.fki8hq7kuztw'
+      slideURL="https://drive.google.com/drive/folders/1a4ZV_8ZMMShuFWrjjwCDQ8YtUh-063F4" 
+      moduleChallenge='UX Design Portfolio and Job Prep'
+      challengeDeliverables="For this Design Challenge, you&lsquo;ll create mock-ups of your professional portfolio website. As you&lsquo;ve learned in this module, a portfolio is the standard tool that UX/UI designers use to showcase their skills and experience."
+       moduleChallengeLink='https://docs.google.com/document/d/1FUHQ1JBInU5pIykSukPmJgRBScNX86E2ST-gBpPLiSA/edit?tab=t.0'
     />
+
 
     </ProtectedRoute>
 

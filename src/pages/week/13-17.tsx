@@ -4,70 +4,63 @@ import React from "react";
 const One = () => {
   return (
     <ProtectedRoute>
-      {/* <CardNavigation
-        video={true}
-        videoLinks={[
-        "https://www.youtube.com/embed/YW2WpCSdNl8?si=gcHgKqkYMZAZJhcA",
-        "https://www.youtube.com/embed/ebPLYcAx__s?si=Z8ezLwY55DckshNy",
-        "https://www.youtube.com/embed/uZwRVckjQWI?si=oyEb9qcB8TDiqrxW",
-        "https://www.youtube.com/embed/ZVZfWfqmRBY?si=35saNnCe84Kfwhig" 
-        ]}
-        moduleTitle="Weeks 13-17: Week 15"
+      {/* 
+      
+     
+      <br />
+      <br />
+
+
+    <CardNavigation
+        // video={true}
+        // videoLinks={[
+        // "https://www.youtube.com/embed/YW2WpCSdNl8?si=gcHgKqkYMZAZJhcA",
+        // "https://www.youtube.com/embed/ebPLYcAx__s?si=Z8ezLwY55DckshNy",
+        // "https://www.youtube.com/embed/uZwRVckjQWI?si=oyEb9qcB8TDiqrxW",
+        // "https://www.youtube.com/embed/ZVZfWfqmRBY?si=35saNnCe84Kfwhig" 
+        // ]}
+        moduleTitle="Weeks 13-17: Week 17"
         activitiesHeader="Group Project Presentations"
-        activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+        // activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+        day1Activities={['https://drive.google.com/drive/folders/1omkz7xA2wZnGiirVkA3G1hZFlRFiA7Ya','17.1-01 Developer Handoff']}
         slidesLinks={[
-          `https://docs.google.com/presentation/d/e/2PACX-1vQkfs-eRNO2OpvLvpxmONMTwxz69nWX9hiaN_s4jkiOAGR8eH0zmeUia2CTp9OQiopGQoitUWahgv-t/embed?start=true&loop=true&delayms=10000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vTV5xAdyCHVvtYQYwVMAiY1wMcy4i5NwOgtpFM3wPLj0KE7eymMrIZkPs5JAVKt1kfVNViicDyYWVxV/embed?start=true&loop=true&delayms=10000`,
-     `https://docs.google.com/presentation/d/e/2PACX-1vQYispR6hx9kojlhvcr-6t9rokoI0bkvCwR8MLCS8q2pJRxlSPcCxzvXKG4wBuOXRlCRAajXVpAa3LG/embed?start=true&loop=true&delayms=10000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vTEWGlLxm_4gRYUmpq0giExaxsV6vhO0Ne4MblQwxL1CP872ntzt9hiFEPxcQdD6J5FN3emEJdSrcVh/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vRS6zRLsBf_RZ5DBXKxAhtqN-m0BTyUnlWFk2-rHj9-WPMPuzCJqMe5ZRBlcM6QuJB1lzPuYsElNLN-/embed?start=false&loop=false&delayms=10000`,
+          // `https://docs.google.com/presentation/d/e/2PACX-1vQKZwyeygwJm24wusTZteKFEV60Vs_nz3SWtWwjuKYP4TJEUOY8KYKtkUHGCg7HQ12EBcTThuTaPSu_/embed?start=false&loop=false&delayms=10000`
         ]}
-        slideURL="https://drive.google.com/drive/folders/1tOzjXGhv-hbbMeKl8bHy1kj9dTwqcnta?usp=sharing"
-        moduleChallengeLink="https://docs.google.com/document/d/1JD-YAiHo9AgmUVIUNBrZiXo8-ykvrGtxIxM7mTaCG3c/edit?tab=t.0"
-        challengeDeliverables="Wicked Problem Presentations"
-        glossaryTerms={[
-          {
-            term: "Case Study",
-            definition:
-              "An elaborate examination of a project, scenario, or design process that delves into the steps undertaken and the results obtained, offering insights into actions and achievements.",
-          },
-          {
-            term: "Clickable Prototype",
-            definition:
-              "A functional model of a digital product that enables user interaction through clicking on elements, like buttons or links, to navigate and evaluate the layout and features.",
-          },
-          {
-            term: "Constructive Feedback",
-            definition:
-              "Feedback aimed at being constructive and beneficial, offering suggestions for enhancement without excessive criticism, promoting growth and improvement.",
-          },
-          {
-            term: "Deliverables",
-            definition:
-              "Tangible results or products generated from a project's efforts, encompassing presentations, reports, or designs that are delivered or provided as outcomes of the project work.",
-          },{
-            term: "Glow and Grow Method",
-            definition:
-              "A feedback approach that emphasizes recognizing strengths (Glow) and offering constructive suggestions for growth or enhancement (Grow).",
-          },
-          {
-            term: "Presenter Notes",
-            definition:
-              "Supplementary information or key points accompanying presentation slides to assist the speaker in delivering the content effectively.",
-          },
-          {
-            term: "Project Review",
-            definition:
-              "An evaluation procedure that assesses project objectives, deliverables, and benchmarks to ensure successful project completion and alignment with desired outcomes.",
-          },
+        slideURL="https://drive.google.com/drive/folders/1JZHqmj4iMy49Dk6SSANb0g0mfColWaWX"
+        moduleChallengeLink="https://docs.google.com/document/d/1S_VCj6XH02s2sI1yZdwdROoNTbqf9zWfGR9dIuL5n9U/edit?tab=t.0"
+        challengeDeliverables="Project 2 is a five-week assignment, culminating in a UI prototype presentation and portfolio-ready case study. Teams are tasked with choosing a nonprofit and executing the user experience (UX)/user interface (UI) design process. The teams create a high-fidelity responsive web design (RWD) solution through a clickable UI prototype (Figma). "
 
-
-        ]}
       />
 
-      <br />
-      <br />
+<CardNavigation
+        // video={true}
+        // videoLinks={[
+        // "https://www.youtube.com/embed/YW2WpCSdNl8?si=gcHgKqkYMZAZJhcA",
+        // "https://www.youtube.com/embed/ebPLYcAx__s?si=Z8ezLwY55DckshNy",
+        // "https://www.youtube.com/embed/uZwRVckjQWI?si=oyEb9qcB8TDiqrxW",
+        // "https://www.youtube.com/embed/ZVZfWfqmRBY?si=35saNnCe84Kfwhig" 
+        // ]}
+        moduleTitle="Weeks 13-17: Week 16"
+        activitiesHeader="High Fidelity Prototypes"
+        activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+        day1Activities={["https://drive.google.com/drive/folders/1waAJyW4YK6R6pyxLV0KPbTJDmblxvg1f", "16.1-01 Multimodal Prototype"]}
+        // day2Activities={["https://drive.google.com/drive/folders/1Vxoj05pZR1t08qDOHDS_oPrKADql-2Eh", "16.2-01 No-Code Tools","16.2-01 No-Code Tool Assignment"]}
+        // day3Activities={["https://drive.google.com/drive/folders/1Y5eduHPX778ry4Qc47Nt7rWvpp2rdV8H","16.3-01 Peer Feedback"]}
+        slidesLinks={[
+          `https://docs.google.com/presentation/d/e/2PACX-1vSSrMKt58HK7ffkTWfURl7dDrVMzb6rLAFHdj0sTSL2YJv7GzGlQIEIyEWlKNuwXKJx7Ad9ZgCFrT85/embed?start=false&loop=false&delayms=10000`,
+    //       `https://docs.google.com/presentation/d/e/2PACX-1vRGERICyNSdBLXKWxVr_KEBfw-zQVE84xbKlijR1emJt_rSbWBIoMMHFgTSmYh2rvAfEAm31IJNIqgO/embed?start=false&loop=false&delayms=10000`,
+    //  `https://docs.google.com/presentation/d/e/2PACX-1vRnWuizbJVf1a2OCcfaq9PEo8KJoBe6RsAZeTZ_YWNNRiVjqt0iHWQbMS9H2zeHsOBRkU3aYiKeDNkb/embed?start=false&loop=false&delayms=10000`
+        ]}
+        slideURL="https://drive.google.com/drive/folders/1Nj8Whg1SBU-XlVBJ3bROpnyfwm7EBZ1k?usp=drive_link"
+        moduleChallengeLink="https://docs.google.com/document/d/1aShmjUxcV74-rIw4ly0YECGyL8C-y_dx7aRv4WbERS4/edit?tab=t.0"
+        challengeDeliverables="In a slide deck, you&apos;ll submit a short, focused case study that details the work you and your team do during this particular phase of the redesign project, in which you&apos;re adding the visual design layer to the prototype."
+
+      />
 
 
-    
+
 
 
      */}
@@ -78,15 +71,47 @@ const One = () => {
 
 
 
+
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <CardNavigation
         
         moduleTitle="Weeks 13-17: Week 15"
         activitiesHeader="Group Project Prototyping Phase"
-        // activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
+        day3Activities={[
+          "https://drive.google.com/drive/folders/1doy8-CxktFuQaaPFNLrwJGia2c0lkEVe",
+          "15.3-01 Testing Strategy",
+        ]}
+        activitiesLink="https://drive.google.com/drive/folders/1doy8-CxktFuQaaPFNLrwJGia2c0lkEVe"
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSQXM5pt8tHIvzRZj03YjfJFeoayRphoEATgOZMlgE0aDrtPZd1qXetA_4eEG8DTy9Ui5DKzc0KqwJi/embed?start=false&loop=false&delayms=10000`,
-          `https://docs.google.com/presentation/d/e/2PACX-1vSrApAl6vCt4z7iqsBhLlD8ClicV3JQPwT81CWp1-wpdRrgqo7fBLJUMOJ84Wds6CYcYy2i-B_glieQ/embed?start=false&loop=false&delayms=10000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vSrApAl6vCt4z7iqsBhLlD8ClicV3JQPwT81CWp1-wpdRrgqo7fBLJUMOJ84Wds6CYcYy2i-B_glieQ/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRAyrykKjjlpANXCMl9_GCsnZmFmYRu0FFWXpaYASdzO0Sz7sxK-YOl8W9aQsNFEPo5icdFWK4T04-D/embed?start=false&loop=false&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1ydgUTsr1kw_VgcLFGIKFRTqRNxxHbpTj?usp=drive_link"
         moduleChallengeLink="https://docs.google.com/document/d/1VUzqH2o1gvtQpPUhokA5pybAsd1LdQ19onJZXA7iEWY/edit?tab=t.0"

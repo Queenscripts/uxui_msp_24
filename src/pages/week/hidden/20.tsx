@@ -29,9 +29,8 @@ const One = () => {
   return (
     <ProtectedRoute>
      <CardNavigation 
-      // moduleTitle='Weeks 20: Webflow' 
-      moduleTitle='Weeks 20: Bootstrap' 
-      activitiesHeader="Let's design some websites!" 
+      moduleTitle='Weeks 20: Javascript Fundamentals' 
+      activitiesHeader="Yay, more coding!" 
       activitiesLink="https://drive.google.com/drive/folders/1I_ZRtM2jVBWqqIZ1f6HQzcFJVecGk-hr"
       day1Activities={[
   
@@ -61,18 +60,17 @@ const One = () => {
       ]
       }
       slidesLinks={[
-        `https://docs.google.com/presentation/d/e/2PACX-1vSyVmJfFlljQdx37SC14wG-SkXaaBayImR0awz4Ay9BnEOylGLSN08mkBkTFxcJ_xNjlebb9vorcnOY/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vTXTM7vp1w1DVT29FYdSS4m_U4tenKT84aol0dGL9K5Ug3hTNIaQHIZAyzAwVq9Ijd9Kq5exNDSxlL5/embed?start=false&loop=false&delayms=3000`,
-        `https://docs.google.com/presentation/d/e/2PACX-1vTwmoTwl0AyPSLyFBpha9wFYguA7yxKYiUULpTqNOQM6oxPbQonenghjQADDV-A1hGZhon40ivzZUdc/embed?start=false&loop=false&delayms=3000`
-        // `https://docs.google.com/presentation/d/e/2PACX-1vRGONPX8Ry8jlhWcXYE2EO0pcKKMJSvwwu3Uqr6q48o2rpPfSn13IeNKKB5k_f5psnrsZlTidQ-8DIA/embed?start=false&loop=false&delayms=3000`,
-        // `https://docs.google.com/presentation/d/e/2PACX-1vQXwJt5e_h2V4E7K_0_yJYt_BLZp2GZb2aPuH5OCrKP7G_wn4ohJ-DWlVI3bFt2e69mJWuG3a5mAGT2/embed?start=false&loop=false&delayms=3000`,
-        // `https://docs.google.com/presentation/d/e/2PACX-1vTDP_ZyMn4G1ijlWov1Ik8GzPV5hr--Q5gfh5W1yM8U7X6J7tD3KdhCgFjMfULNibZ7yO-xUuFXAqNF/embed?start=false&loop=false&delayms=3000`
+        `https://docs.google.com/presentation/d/e/2PACX-1vQ2MW_k_6gHQJ1cn6mXVfuYMNuxxx7SHYil3jp85AzYyRjJxJFIyFv-t4ByUUmgKBZ1w-KQXmgy1sNi/embed?start=false&loop=false&delayms=10000`,
+        // `https://docs.google.com/presentation/d/e/2PACX-1vQyHGwZIAvudjbWiBxewlsGaxBYJuQuwrLH6hcVJc9JfB5NHpXVxxVy1dWjZWVdjS2LTGmNl0UF3hjy/embed?start=false&loop=false&delayms=10000`,
+        // `https://docs.google.com/presentation/d/e/2PACX-1vQv7HhLNlieVbcrU34suqgeU3pad_4v5WhcCPknGod5icOpgdZ1uBRpPumf5Ea-CuZbLFEr7SBbxo8i/embed?start=false&loop=false&delayms=10000`,
             ]}      
-      slideURL="https://drive.google.com/drive/folders/1IoecD5t9_KgAo1P7ibTZDi-t93SS2fUQ?usp=sharing" 
-      moduleChallenge='Finalize your portfolio'
+      slideURL="https://drive.google.com/drive/folders/1jwY9gERJn67O8auobitsrrVwVaaaRXGN?usp=sharing" 
+      moduleChallenge='Presenting your Work '
       challengeDeliverables="
+      This is the culmination of many weeks of work. You&lsquo;ve built your portfolio site and included your strongest case studies. You&lsquo;ve also gathered peer feedback and iterated the site based on the feedback. Next week you&lsquo;ll be presenting the strongest case study in your online design portfolio to the live class.
+
       "
-       moduleChallengeLink='https://docs.google.com/document/d/1aNB9SdYV_NuTScgFlrDRqWhUongVRT3y7smTBR6u8LM/edit#heading=h.hwjr88gjl9n2'
+       moduleChallengeLink='https://docs.google.com/document/d/1kr_uHxZKc11BDhlKnZ9lpyHm2lICmiehzzaM1X5kh8E/edit?tab=t.0#heading=h.bv6msf9tz0bm'
     />
 
     </ProtectedRoute>
