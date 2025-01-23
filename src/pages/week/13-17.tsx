@@ -34,6 +34,18 @@ const One = () => {
 
       />
 
+
+
+
+     */}
+
+
+
+
+
+
+
+
 <CardNavigation
         // video={true}
         // videoLinks={[
@@ -60,19 +72,8 @@ const One = () => {
       />
 
 
-
-
-
-     */}
-
-
-
-
-
-
-
-
-      
+<br/>
+<br/>
 
 
 
