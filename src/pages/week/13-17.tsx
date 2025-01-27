@@ -58,11 +58,11 @@ const One = () => {
         activitiesHeader="High Fidelity Prototypes"
         activitiesLink="https://drive.google.com/drive/folders/1BF8PQUURNcnY9Zqh9yj1SJ3_rOG_C-FW"
         day1Activities={["https://drive.google.com/drive/folders/1waAJyW4YK6R6pyxLV0KPbTJDmblxvg1f", "16.1-01 Multimodal Prototype"]}
-        // day2Activities={["https://drive.google.com/drive/folders/1Vxoj05pZR1t08qDOHDS_oPrKADql-2Eh", "16.2-01 No-Code Tools","16.2-01 No-Code Tool Assignment"]}
+        day2Activities={["https://drive.google.com/drive/folders/1Vxoj05pZR1t08qDOHDS_oPrKADql-2Eh", "16.2-01 No-Code Tools","16.2-01 No-Code Tool Assignment"]}
         // day3Activities={["https://drive.google.com/drive/folders/1Y5eduHPX778ry4Qc47Nt7rWvpp2rdV8H","16.3-01 Peer Feedback"]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSSrMKt58HK7ffkTWfURl7dDrVMzb6rLAFHdj0sTSL2YJv7GzGlQIEIyEWlKNuwXKJx7Ad9ZgCFrT85/embed?start=false&loop=false&delayms=10000`,
-    //       `https://docs.google.com/presentation/d/e/2PACX-1vRGERICyNSdBLXKWxVr_KEBfw-zQVE84xbKlijR1emJt_rSbWBIoMMHFgTSmYh2rvAfEAm31IJNIqgO/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRGERICyNSdBLXKWxVr_KEBfw-zQVE84xbKlijR1emJt_rSbWBIoMMHFgTSmYh2rvAfEAm31IJNIqgO/embed?start=false&loop=false&delayms=10000`,
     //  `https://docs.google.com/presentation/d/e/2PACX-1vRnWuizbJVf1a2OCcfaq9PEo8KJoBe6RsAZeTZ_YWNNRiVjqt0iHWQbMS9H2zeHsOBRkU3aYiKeDNkb/embed?start=false&loop=false&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1Nj8Whg1SBU-XlVBJ3bROpnyfwm7EBZ1k?usp=drive_link"
