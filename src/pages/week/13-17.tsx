@@ -7,11 +7,16 @@ const One = () => {
       {/* 
       
      
-      <br />
-      <br />
+  
 
 
-    <CardNavigation
+
+
+     */}
+
+
+
+<CardNavigation
         // video={true}
         // videoLinks={[
         // "https://www.youtube.com/embed/YW2WpCSdNl8?si=gcHgKqkYMZAZJhcA",
@@ -36,13 +41,8 @@ const One = () => {
 
 
 
-
-     */}
-
-
-
-
-
+<br />
+      <br />
 
 
 
