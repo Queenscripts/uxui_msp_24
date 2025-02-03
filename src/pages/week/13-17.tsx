@@ -30,7 +30,7 @@ const One = () => {
         day1Activities={['https://drive.google.com/drive/folders/1omkz7xA2wZnGiirVkA3G1hZFlRFiA7Ya','17.1-01 Developer Handoff']}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vTEWGlLxm_4gRYUmpq0giExaxsV6vhO0Ne4MblQwxL1CP872ntzt9hiFEPxcQdD6J5FN3emEJdSrcVh/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vRS6zRLsBf_RZ5DBXKxAhtqN-m0BTyUnlWFk2-rHj9-WPMPuzCJqMe5ZRBlcM6QuJB1lzPuYsElNLN-/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRS6zRLsBf_RZ5DBXKxAhtqN-m0BTyUnlWFk2-rHj9-WPMPuzCJqMe5ZRBlcM6QuJB1lzPuYsElNLN-/embed?start=false&loop=false&delayms=10000`,
           // `https://docs.google.com/presentation/d/e/2PACX-1vQKZwyeygwJm24wusTZteKFEV60Vs_nz3SWtWwjuKYP4TJEUOY8KYKtkUHGCg7HQ12EBcTThuTaPSu_/embed?start=false&loop=false&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1JZHqmj4iMy49Dk6SSANb0g0mfColWaWX"
