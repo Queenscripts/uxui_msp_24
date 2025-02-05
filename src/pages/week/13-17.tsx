@@ -31,7 +31,7 @@ const One = () => {
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vTEWGlLxm_4gRYUmpq0giExaxsV6vhO0Ne4MblQwxL1CP872ntzt9hiFEPxcQdD6J5FN3emEJdSrcVh/embed?start=false&loop=false&delayms=10000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vRS6zRLsBf_RZ5DBXKxAhtqN-m0BTyUnlWFk2-rHj9-WPMPuzCJqMe5ZRBlcM6QuJB1lzPuYsElNLN-/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vQKZwyeygwJm24wusTZteKFEV60Vs_nz3SWtWwjuKYP4TJEUOY8KYKtkUHGCg7HQ12EBcTThuTaPSu_/embed?start=false&loop=false&delayms=10000`
+          `https://docs.google.com/presentation/d/e/2PACX-1vQKZwyeygwJm24wusTZteKFEV60Vs_nz3SWtWwjuKYP4TJEUOY8KYKtkUHGCg7HQ12EBcTThuTaPSu_/embed?start=false&loop=false&delayms=10000`
         ]}
         slideURL="https://drive.google.com/drive/folders/1JZHqmj4iMy49Dk6SSANb0g0mfColWaWX"
         moduleChallengeLink="https://docs.google.com/document/d/1S_VCj6XH02s2sI1yZdwdROoNTbqf9zWfGR9dIuL5n9U/edit?tab=t.0"
