@@ -7,7 +7,7 @@ import ProtectedRoute from 'src/components/ProtectedRoute'
 const Dashboard = () => {
 useEffect(()=>{
   // CHANGE WEEK
-  router.replace("/week/13-17/")
+  router.replace("/week/18/")
 },[])
   return (
     <ProtectedRoute>

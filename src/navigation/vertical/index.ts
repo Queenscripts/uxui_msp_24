@@ -56,13 +56,14 @@ const navigation = (): VerticalNavItemsType => {
     //   icon: SchoolIcon,
     //   path: '/week/19',
     //   openInNewTab: false
-    // },{
-    //   title: 'Week 18: Advanced CSS',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/18',
-    //   openInNewTab: false
     // },
+    {
+      title: 'Week 18: Portfolios',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/18',
+      openInNewTab: false
+    },
     // {
     //   title: 'Week 17: Intro to Front End Development',
     //   subject:"11",
