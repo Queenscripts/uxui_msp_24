@@ -39,13 +39,13 @@ const One = () => {
         "18.1-02 Case Study Planning",
         "18.1-02 Case Study Planning Sheet"
       ]}
-      // day2Activities={[
-      //   "https://drive.google.com/drive/folders/1slCiYtjVA2O93hWPgZ5aRBrj7FdUT9C5",
-      //   "18.2-01 Mock Interview",
-      //   "18.2-01 Skills Tracker",
-      //   "18.2-02 Skills Inventory Iteration",
-      // ]
-      // }
+      day2Activities={[
+        "https://drive.google.com/drive/folders/1slCiYtjVA2O93hWPgZ5aRBrj7FdUT9C5",
+        "18.2-01 Mock Interview",
+        "18.2-01 Skills Tracker",
+        "18.2-02 Skills Inventory Iteration",
+      ]
+      }
       // day3Activities={[
       //   "https://drive.google.com/drive/folders/1Iyn76CpOvlJs9RBLr7g4eZKZi_YvlpiY",
       //   "18.3-01 Whiteboard Exercise",
@@ -53,7 +53,7 @@ const One = () => {
       // }
       slidesLinks={[
   `https://docs.google.com/presentation/d/e/2PACX-1vSPxzx3QL0IpV4EHmaSRGVQvUkIY4KQ13IUBk7Nl2LbKkAT5oi8r0rvqTy-X_5uo9nX8qTJZcfXScFG/embed?start=false&loop=false&delayms=10000`,
-  // `https://docs.google.com/presentation/d/e/2PACX-1vSsmtzd-GViIbFn8au18Fq3PZfvLVe4ZezC_-TkfONpcE5cPhtt89gb1jxKMiiSVieXUDsXIzGxpmM1/embed?start=false&loop=false&delayms=10000`,
+  `https://docs.google.com/presentation/d/e/2PACX-1vSsmtzd-GViIbFn8au18Fq3PZfvLVe4ZezC_-TkfONpcE5cPhtt89gb1jxKMiiSVieXUDsXIzGxpmM1/embed?start=false&loop=false&delayms=10000`,
   //     `https://docs.google.com/presentation/d/e/2PACX-1vQ1sLABmtMV48fPf0QkzNzVNYnsHG1-juthe2c0RfUWlmu2uTPAuN8icFKn3H9s7R1ObrgKnana8sk6/embed?start=false&loop=false&delayms=10000`
         ]}
       slideURL="https://drive.google.com/drive/folders/1a4ZV_8ZMMShuFWrjjwCDQ8YtUh-063F4" 

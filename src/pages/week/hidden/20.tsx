@@ -34,29 +34,24 @@ const One = () => {
       activitiesLink="https://drive.google.com/drive/folders/1I_ZRtM2jVBWqqIZ1f6HQzcFJVecGk-hr"
       day1Activities={[
   
-        "https://drive.google.com/drive/folders/1I_ZRtM2jVBWqqIZ1f6HQzcFJVecGk-hr",
-        "20.1-01-Getting-started-with-Bootstrap",
-        "20.1-02-Bootstrap-Navigation-Bars",
-        "20.1-03-Add-Bootstrap-Containers-Rows-And-Columns",
-        "20.1-04-Add-Bootstrap-Cards",
-        "20.1-05-Bootstrap-Forms-and-Modals",
-        "20.1-06-Extended Activity-Bootstrap-Components"
+        "https://drive.google.com/drive/folders/1Y3F0UIoY0JOZdHtV4kz7fsCK-wjWqcEU",
+        "20.1-01 Hello World Again",
+        "20.1-02 JavaScript Variables",
+        "20.1-03 Using jQuery",
+        "20.1-04 Event Listeners",
       ]}
       day2Activities={[
-        "https://drive.google.com/drive/folders/13MhukwYtoE-fE6aeaIltQG0wyNM15rnm",
-        "20.2-01-Webpage Funnel Customization: Part 1 - Navbar",
-        "20.2-02-Webpage Funnel Customization: Part 2 - Jumbotron",
-        "20.2-03-Webpage Funnel Customization: Part 3 - Cards",
-        "20.2-04-Webpage Funnel Customization: Part 4 - Content",
-        "20.2-05-Webpage Funnel Customization: Part 5  - Footer",
-        "20.2-06-Iterate-On-Your-Funnel"
+        "https://drive.google.com/drive/folders/149BLRzjXG7_S2bRcs07BYLNxZW5hBr7A",
+        "20.2-01 Writing Conditionals",
+        "20.2-02 Conditional Clicks",
+        "20.2-03 Simple Web App",
       ]
       }
       day3Activities={[
-        "https://drive.google.com/drive/folders/1MHZ6U12EIapQ9EjsGARUug4EdxKUiqeB",
-        "20.3-01-View-Statement-of-Work",
-        "20.3-02-Preparing-Web-Assets",
-        "20.3-03-Travel-California-Creative-Prompt"
+        "https://drive.google.com/drive/folders/1xUM7xW4az18EJOCQeTAtur_Vy95AGpgy",
+        "20.3-01 Smart Accordion",
+        "20.3-02 Animated Menu",
+        "20.3-03 Preloader"
       ]
       }
       slidesLinks={[
