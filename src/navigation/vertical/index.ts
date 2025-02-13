@@ -50,13 +50,13 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/20',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 19:JS & JQuery',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/19',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 19:JS & JQuery',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/19',
+      openInNewTab: false
+    },
     {
       title: 'Week 18: Portfolios',
       subject:"11",
