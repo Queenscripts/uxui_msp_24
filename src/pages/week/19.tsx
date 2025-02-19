@@ -38,13 +38,13 @@ const One = () => {
         "19.1-02 Portfolio Iterations",
        "19.1-03 Design Studio"
       ]}
-    //   day2Activities={[
-    //   "https://drive.google.com/drive/folders/1z7M0Nm2fcBRCGFIkcx9SGzdrptl2DQ6I",
-    //   "19.2-01 Cognitive Walkthrough",
-    //   "19.2-02 Professional Networking",
-    //   "19.2-03 Design Studio"
-    //   ]
-    //   }
+      day2Activities={[
+      "https://drive.google.com/drive/folders/1z7M0Nm2fcBRCGFIkcx9SGzdrptl2DQ6I",
+      "19.2-01 Cognitive Walkthrough",
+      "19.2-02 Professional Networking",
+      "19.2-03 Design Studio"
+      ]
+      }
     //   day3Activities={[
     //  "https://drive.google.com/drive/folders/1VX4ebR_toJPOe1DtPgFFRsfVcPhp5QdL",
     //  "19.3-01 Hiring Manager Persona",
@@ -54,7 +54,7 @@ const One = () => {
     //   }
       slidesLinks={[
   `https://docs.google.com/presentation/d/e/2PACX-1vTi_wAWEEK_byPuhEFJq4VmIU7niEt1ziRvR_mKcmUEV1qVa-nODJGom6MuLxeCtgy6rtc8kXC9-U8U/embed?start=false&loop=false&delayms=10000`,
-  // `https://docs.google.com/presentation/d/e/2PACX-1vRIbgexDfQPKx7YTDK8a9pK06-o7EKFOJjJT8QBKErTJs0Rr5DrfAgtjRGi1nglF_Id88sU1P9B7iiG/embed?start=false&loop=false&delayms=10000`,
+  `https://docs.google.com/presentation/d/e/2PACX-1vRIbgexDfQPKx7YTDK8a9pK06-o7EKFOJjJT8QBKErTJs0Rr5DrfAgtjRGi1nglF_Id88sU1P9B7iiG/embed?start=false&loop=false&delayms=10000`,
   // `https://docs.google.com/presentation/d/e/2PACX-1vSLkMYOxiINNynso6qMnR-T4meoppxJOGYonhLrJPALdqh-dPtSeYWbB3tObtPtF7TQFB9tOU3yEohM/embed?start=false&loop=false&delayms=10000`
         ]}
       slideURL="https://drive.google.com/drive/folders/1Zin3_OzhU7bR_oa2jU-OfwXSB9QUoSC-?usp=sharing" 
