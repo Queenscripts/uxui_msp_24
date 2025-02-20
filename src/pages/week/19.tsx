@@ -30,7 +30,7 @@ const One = () => {
     <ProtectedRoute>
     <CardNavigation 
       moduleTitle='Weeks 19: Publish Your Portfolios' 
-      activitiesHeader="Let's Javascript!" 
+      activitiesHeader="Let's Portfolio!" 
       activitiesLink="https://drive.google.com/drive/folders/1loJySCvir5ePThTWjSFe7V2lkscHLm8S"
       day1Activities={[
         "https://drive.google.com/drive/folders/147oYLactwh4-CO3yL1T4jr_gREPlnWcn",
@@ -45,17 +45,17 @@ const One = () => {
       "19.2-03 Design Studio"
       ]
       }
-    //   day3Activities={[
-    //  "https://drive.google.com/drive/folders/1VX4ebR_toJPOe1DtPgFFRsfVcPhp5QdL",
-    //  "19.3-01 Hiring Manager Persona",
-    //  "19.3-02 Design Portfolio KPIs",
-    //  "19.3-03 Google Analytics"
-    //   ]
-    //   }
+      day3Activities={[
+     "https://drive.google.com/drive/folders/1VX4ebR_toJPOe1DtPgFFRsfVcPhp5QdL",
+     "19.3-01 Hiring Manager Persona",
+     "19.3-02 Design Portfolio KPIs",
+     "19.3-03 Google Analytics"
+      ]
+      }
       slidesLinks={[
   `https://docs.google.com/presentation/d/e/2PACX-1vTi_wAWEEK_byPuhEFJq4VmIU7niEt1ziRvR_mKcmUEV1qVa-nODJGom6MuLxeCtgy6rtc8kXC9-U8U/embed?start=false&loop=false&delayms=10000`,
   `https://docs.google.com/presentation/d/e/2PACX-1vRIbgexDfQPKx7YTDK8a9pK06-o7EKFOJjJT8QBKErTJs0Rr5DrfAgtjRGi1nglF_Id88sU1P9B7iiG/embed?start=false&loop=false&delayms=10000`,
-  // `https://docs.google.com/presentation/d/e/2PACX-1vSLkMYOxiINNynso6qMnR-T4meoppxJOGYonhLrJPALdqh-dPtSeYWbB3tObtPtF7TQFB9tOU3yEohM/embed?start=false&loop=false&delayms=10000`
+  `https://docs.google.com/presentation/d/e/2PACX-1vSLkMYOxiINNynso6qMnR-T4meoppxJOGYonhLrJPALdqh-dPtSeYWbB3tObtPtF7TQFB9tOU3yEohM/embed?start=false&loop=false&delayms=10000`
         ]}
       slideURL="https://drive.google.com/drive/folders/1Zin3_OzhU7bR_oa2jU-OfwXSB9QUoSC-?usp=sharing" 
       moduleChallenge='Publishing a Portfolio'
