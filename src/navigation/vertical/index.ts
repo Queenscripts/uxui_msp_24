@@ -26,9 +26,7 @@ const navigation = (): VerticalNavItemsType => {
       icon: HomeOutline,
       path: '/'
     },
-    // {
-    //   sectionTitle: 'Previous Weeks'
-    // },
+
     // {
     //   title: 'Week 22-24:Final Group Project',
     //   subject:"11",
@@ -44,18 +42,21 @@ const navigation = (): VerticalNavItemsType => {
     //   openInNewTab: false
     // },
     // {
-    //   title: 'Week 20:Bootstrap',
+    //   title: 'Week 20:Javascript',
     //   subject:"11",
     //   icon: SchoolIcon,
     //   path: '/week/20',
     //   openInNewTab: false
     // },
     {
-      title: 'Week 19:JS & JQuery',
+      title: 'Week 19:Publish Your Portfolios',
       subject:"11",
       icon: SchoolIcon,
       path: '/week/19',
       openInNewTab: false
+    },
+    {
+      sectionTitle: 'Previous Weeks'
     },
     {
       title: 'Week 18: Portfolios',
