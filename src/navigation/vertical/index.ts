@@ -34,13 +34,17 @@ const navigation = (): VerticalNavItemsType => {
     //   path: '/week/22-24',
     //   openInNewTab: false
     // },
-    // {
-    //   title: 'Week 21:Web Tech',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/21',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 21:Web Tech',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/21',
+      openInNewTab: false
+    },
+    {
+      sectionTitle: 'Previous Weeks'
+    },
+
     {
       title: 'Week 20:Finalize Case Studies & Code',
       subject:"11",
@@ -48,9 +52,7 @@ const navigation = (): VerticalNavItemsType => {
       path: '/week/20',
       openInNewTab: false
     },
-    {
-      sectionTitle: 'Previous Weeks'
-    },
+
     {
       title: 'Week 19:Publish Your Portfolios',
       subject:"11",
