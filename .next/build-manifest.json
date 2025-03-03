@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/week/20": [
+    "/week/21": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/week/20.js"
-    ],
-    "/week/hidden/21": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/week/hidden/21.js"
+      "static/chunks/pages/week/21.js"
     ]
   },
   "ampFirstPages": []
