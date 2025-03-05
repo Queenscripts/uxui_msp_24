@@ -40,12 +40,12 @@ const One = () => {
         "21.1 Pitch Night Sign-Up",
       ]}
      
-      // day3Activities={[
-      //   "https://drive.google.com/drive/folders/1Kf9ajdEkLR6qqnnJrc7NYIDUcrf_5URA",
-      //   "21.3-Final Project Outline",
-      //   "21.3-Final Project Pitch Notes",
-      // ]
-      // }
+      day3Activities={[
+        "https://drive.google.com/drive/folders/1Kf9ajdEkLR6qqnnJrc7NYIDUcrf_5URA",
+        "21.3-Final Project Outline",
+        "21.3-Final Project Pitch Notes",
+      ]
+      }
       slidesLinks={[
         `https://docs.google.com/presentation/d/e/2PACX-1vSKF9USDDRrSpp6k2goeWOsSbcdafZOrOB95PJRC-DnQuVhyGM7-FeCZRrJcYNHeaObUaAcrYDcvpxO/embed?start=false&loop=false&delayms=10000`,
         `htps://docs.google.com/presentation/d/e/2PACX-1vTfv64csgBvUvTzcu6QGNwFs1hH1q-2M_uOg3zYVQWdMp4O8Tatfv9ZAnHK6CIge_XWS39puS9jrSyz/embed?start=false&loop=false&delayms=10000`
