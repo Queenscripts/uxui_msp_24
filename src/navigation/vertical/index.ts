@@ -35,7 +35,7 @@ const navigation = (): VerticalNavItemsType => {
     //   openInNewTab: false
     // },
     {
-      title: 'Week 21:Web Tech',
+      title: 'Week 21:Interview Prep',
       subject:"11",
       icon: SchoolIcon,
       path: '/week/21',
