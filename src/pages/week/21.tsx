@@ -48,7 +48,7 @@ const One = () => {
       }
       slidesLinks={[
         `https://docs.google.com/presentation/d/e/2PACX-1vSKF9USDDRrSpp6k2goeWOsSbcdafZOrOB95PJRC-DnQuVhyGM7-FeCZRrJcYNHeaObUaAcrYDcvpxO/embed?start=false&loop=false&delayms=10000`,
-        `htps://docs.google.com/presentation/d/e/2PACX-1vTfv64csgBvUvTzcu6QGNwFs1hH1q-2M_uOg3zYVQWdMp4O8Tatfv9ZAnHK6CIge_XWS39puS9jrSyz/embed?start=false&loop=false&delayms=10000`
+        `https://docs.google.com/presentation/d/e/2PACX-1vTfv64csgBvUvTzcu6QGNwFs1hH1q-2M_uOg3zYVQWdMp4O8Tatfv9ZAnHK6CIge_XWS39puS9jrSyz/embed?start=false&loop=false&delayms=10000`
             ]}      
       slideURL="https://drive.google.com/drive/folders/1anv0mUPCZEpo1v_74jtvRyLATucu0hZK?usp=sharing" 
 
