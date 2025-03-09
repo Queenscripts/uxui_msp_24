@@ -202,7 +202,7 @@ const LoginPage = () => {
             </Typography>
             <Typography variant='body2'>Please sign-in to your account and start the adventure</Typography>
           </Box>
-          <form noValidate autoComplete='off' onSubmit={e =>{ e.preventDefault(), console.log('sub',email, password), handleLogin()}}>
+          <form noValidate autoComplete='off' onSubmit={e =>{ e.preventDefault(), handleLogin()}}>
             <TextField autoFocus fullWidth id='email'  onChange={handleChange('email')}
  label='Email' sx={{ marginBottom: 4 }} />
             <FormControl fullWidth>

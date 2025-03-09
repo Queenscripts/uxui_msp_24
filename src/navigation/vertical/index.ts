@@ -26,14 +26,16 @@ const navigation = (): VerticalNavItemsType => {
       icon: HomeOutline,
       path: '/'
     },
-
-    // {
-    //   title: 'Week 22-24:Final Group Project',
-    //   subject:"11",
-    //   icon: SchoolIcon,
-    //   path: '/week/22-24',
-    //   openInNewTab: false
-    // },
+    {
+      title: 'Week 22-24:Final Group Project',
+      subject:"11",
+      icon: SchoolIcon,
+      path: '/week/22-24',
+      openInNewTab: false
+    },
+    {
+      sectionTitle: 'Previous Weeks'
+    },
     {
       title: 'Week 21:Interview Prep',
       subject:"11",
@@ -41,9 +43,7 @@ const navigation = (): VerticalNavItemsType => {
       path: '/week/21',
       openInNewTab: false
     },
-    {
-      sectionTitle: 'Previous Weeks'
-    },
+  
 
     {
       title: 'Week 20:Finalize Case Studies & Code',

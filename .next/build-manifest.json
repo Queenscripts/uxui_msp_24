@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/week/21.js"
+    ],
+    "/week/22-24": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/week/22-24.js"
     ]
   },
   "ampFirstPages": []

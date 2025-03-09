@@ -75,7 +75,7 @@ const CardNavigation = ({
               <Typography variant="h6" sx={{ marginBottom: 2 }}>
                 {activitiesHeader}
               </Typography>
-              <Typography variant="body2" sx={{ marginBottom: 4 }}>
+              <Typography variant="body2" sx={{ marginBottom: 4 }} component="span">
                 {video && <b> Additional Learning Videos </b>}
                 {video && videoLinks && (
                   <>
@@ -210,7 +210,7 @@ const CardNavigation = ({
                 )}
                 {moreActivities &&
                   moreActivities.slice(1).map((act: any, index: any) => (
-                    <div key={index} className="flex items-center mb-4">
+                    <div key={index+1} className="flex items-center mb-4">
                       <input
                         id="default-checkbox"
                         type="checkbox"
@@ -266,7 +266,7 @@ const CardNavigation = ({
                 {slidesLinks &&
                   slidesLinks.map((slide, index) => (
                     <iframe
-                      key="index"
+                      key={index}
                       width="50%"
                       height="310px"
                       src={slide}

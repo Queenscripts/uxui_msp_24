@@ -8,18 +8,14 @@ connectDb();
 export default async function handler(req:any, res:any) {
     req.body;
     const userId = req.query.id
-    console.log(userId, 'USER')
     if (req.method==="GET"){
         const userId = req.query.id
-        console.log(userId, 'USER')
         const { motivation, industry, prevIndustry, email, name, hobby}=req.body;
         const studentInfo:any = await User.findById(userId)
         try{
             return res.status(200).json({studentInfo});
         }catch(err){
           const userId = req.query.id
-          console.log(userId, 'USER')
-          console.log('issue', err)
         }
       
       return res.status(405).end();

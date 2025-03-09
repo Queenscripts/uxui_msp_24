@@ -122,7 +122,6 @@ const RegisterPage = () => {
         localStorage.setItem("token", JSON.stringify(data))
 
         router.replace("/")
-        console.log('Signup successful!', data.token);
       } else {
         const data = await response.json();
         console.error('Signup failed:', data.error);
