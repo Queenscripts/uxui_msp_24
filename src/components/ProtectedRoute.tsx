@@ -5,7 +5,7 @@ const isAuthenticated = ()=>{
     const userToken = localStorage.getItem('token')
     if(userToken){return true}
 }
-const ProtectedRoute = ({children}: {children?: any})=>{
+const ProtectedRoute: React.FC = ({children})=>{
     const router= useRouter();
     useEffect(()=>{
         if(!isAuthenticated()){
