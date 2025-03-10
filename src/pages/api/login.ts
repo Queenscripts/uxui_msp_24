@@ -7,7 +7,6 @@ connectDb();
 
 export default async function handler(req:any, res:any) {
   if (req.method === 'POST') {
-    req.body;
 
     try {
       const { email, password } = req.body;
