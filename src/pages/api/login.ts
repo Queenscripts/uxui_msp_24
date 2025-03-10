@@ -9,7 +9,6 @@ export async function POST(req:any, res:any) {
   if (req.method === 'POST') {
     req.body;
 
-
     try {
       const { email, password } = req.body;
 
@@ -35,6 +34,4 @@ export async function POST(req:any, res:any) {
       return res.status(500).json({ error: 'Internal server error' });
     }
   }
-
-  // return res.status(405).end();
 }
