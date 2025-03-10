@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken';
 
 connectDb();
 
-export async function POST(req:any, res:any) {
+export default async function handler(req:any, res:any) {
   if (req.method === 'POST') {
     req.body;
 
