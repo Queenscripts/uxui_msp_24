@@ -1,9 +1,9 @@
 import connectDb from './db';
 import User, { IUser } from './models/User';
-import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 connectDb();
+const bcrypt = require('bcrypt');
 
 export default async function handler(req:any, res:any) {
   if (req.method === 'POST') {
