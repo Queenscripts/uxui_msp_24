@@ -1,16 +1,15 @@
 import connectDb from './db';
 import User, { IUser } from './models/User';
+import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 connectDb();
-const bcrypt = require('bcrypt');
 
-export default async function handler(req:any, res:any) {
+export default async function POST(req:any, res:any) {
   if (req.method === 'POST') {
+    const { email, password } = req.body;
 
     try {
-      const { email, password } = req.body;
-
       // Check if user exists
       const user: any = await User.findOne({ email });
       if (!user) {
@@ -33,4 +32,6 @@ export default async function handler(req:any, res:any) {
       return res.status(500).json({ error: 'Internal server error' });
     }
   }
+
+  // return res.status(405).end();
 }
