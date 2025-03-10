@@ -26,7 +26,6 @@ export default async function handler(req:any, res:any) {
         expiresIn: '1h', // Token expires in 1 hour, adjust as needed
       });
 
-      console.log('working')
       return res.status(200).json({ user,token });
     } catch (error) {
       console.error('Error logging in user:', error);
