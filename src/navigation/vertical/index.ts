@@ -2,7 +2,6 @@
 import Login from 'mdi-material-ui/Login'
 import AccountBox from "mdi-material-ui/AccountBox"
 import VideoCameraFrontIcon from '@mui/icons-material/VideoCameraFront'
-import PrivacyTipIcon from '@mui/icons-material/PrivacyTip';
 import SchoolIcon from '@mui/icons-material/School';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 // import Table from 'mdi-material-ui/Table'
@@ -17,9 +16,9 @@ import AccountCogOutline from 'mdi-material-ui/AccountCogOutline'
 // import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
 // ** Type import
-import { VerticalNavItemsType } from 'src/@core/layouts/types'
+// import { VerticalNavItemsType } from 'src/@core/layouts/types'
 
-const navigation = (): VerticalNavItemsType => {
+const navigation = (): any => {
   return [
     {
       title: 'Dashboard',

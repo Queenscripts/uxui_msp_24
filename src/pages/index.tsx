@@ -11,7 +11,7 @@ useEffect(()=>{
 },[])
   return (
     <ProtectedRoute>
-    <>
+
        {/* <Link target='_blank' href='/glossary' style={{textAlign:"center", zIndex: 1, fontWeight: "800", color: "#110B11"}}>
         <section style={{textAlign:"center", zIndex: 1, fontWeight: "800", color: "#110B11", cursor: "pointer"}}> Checkout out our BETA design glossary </section>
         </Link>
@@ -103,8 +103,8 @@ useEffect(()=>{
       "
        moduleChallengeLink='https://docs.google.com/document/d/1zCu1EOVi0bMrHJ-LGOmXSpeYdWc-3WNosb9mKTIBlgk/edit#heading=h.9xxaawr1gfb8'
     /> */}
-    <h2>Welcome to the bootcamp site with Queenscript!</h2>
-</>    </ProtectedRoute>
+    {/* <h2>Welcome to the bootcamp site with Queenscript!</h2> */}
+  </ProtectedRoute>
   )
 }
 

@@ -80,7 +80,7 @@ const VerticalNavLink = ({ item, navVisible, toggleNavVisibility }: Props) => {
     <ListItem
       disablePadding
       className='nav-link'
-      disabled={item.disabled || false}
+      // disabled={it@mui/icons-material/VideoCameraFrontem.disabled || false}
       sx={{ mt: 1.5, px: '0 !important' }}
     >
       <Link passHref href={item.path === undefined ? '/' : `${item.path}`}>

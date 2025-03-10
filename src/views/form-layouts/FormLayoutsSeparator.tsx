@@ -200,7 +200,7 @@ const FormLayoutsSeparator = () => {
                 placeholderText='MM-DD-YYYY'
                 customInput={<CustomInput />}
                 id='form-layouts-separator-date'
-                onChange={(date: Date) => setDate(date)}
+                onChange={(date?: Date|null) => setDate(date)}
               />
             </Grid>
             <Grid item xs={12} sm={6}>

@@ -53,7 +53,7 @@ const TabInfo = () => {
                 id='account-settings-date'
                 placeholderText='MM-DD-YYYY'
                 customInput={<CustomInput />}
-                onChange={(date: Date) => setDate(date)}
+                onChange={(date?: Date| null) => setDate(date)}
               />
             </DatePickerWrapper>
           </Grid>
