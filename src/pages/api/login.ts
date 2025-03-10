@@ -1,5 +1,5 @@
-import connectDb from '../db';
-import User, { IUser } from '../models/User';
+import connectDb from './db';
+import User, { IUser } from './models/User';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
@@ -7,9 +7,12 @@ connectDb();
 
 export async function POST(req:any, res:any) {
   if (req.method === 'POST') {
-    const { email, password } = req.body;
+    req.body;
+
 
     try {
+      const { email, password } = req.body;
+
       // Check if user exists
       const user: any = await User.findOne({ email });
       if (!user) {
