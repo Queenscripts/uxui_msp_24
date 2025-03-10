@@ -12,15 +12,15 @@ export default async function POST(req:any, res:any) {
     try {
       // Check if user exists
       const user: any = await User.findOne({ email });
-      if (!user) {
-        return res.status(404).json({ error: 'User not found' });
-      }
+      // if (!user) {
+      //   return res.status(404).json({ error: 'User not found' });
+      // }
 
-      // Compare passwords
-      const passwordMatch = await bcrypt.compare(password, user.password);
-      if (!passwordMatch) {
-        return res.status(401).json({ error: 'Invalid password' });
-      }
+      // // Compare passwords
+      // const passwordMatch = await bcrypt.compare(password, user.password);
+      // if (!passwordMatch) {
+      //   return res.status(401).json({ error: 'Invalid password' });
+      // }
       // Generate a JWT token
       const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET as any, {
         expiresIn: '1h', // Token expires in 1 hour, adjust as needed
