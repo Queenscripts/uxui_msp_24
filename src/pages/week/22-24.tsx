@@ -86,11 +86,11 @@ const One = () => {
           "AMA Topic Sign-Up"
 
         ]}
-        // day3Activities={[
-        //   "https://drive.google.com/drive/folders/1LmB2Ixv7VM79QzPjKeQGvODPucg7RGKw",
-        //   "22.3-01 Peer Feedback",
-        //   "Instructor Demo: AMA Guidance",
-        // ]}
+        day3Activities={[
+          "https://drive.google.com/drive/folders/1LmB2Ixv7VM79QzPjKeQGvODPucg7RGKw",
+          "22.3-01 Peer Feedback",
+          "Instructor Demo: AMA Guidance",
+        ]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSZI5UT1F7iNc2EaNQuktz0lt0tMh8Jf2e5-l1JR-IKILf2JWRVdlgX_qv26kpZYOdWHm0znwLHhvFb/embed?start=false&loop=false&delayms=10000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vSKQwaQMjrOde2F-r0KX2K6eHbPbILWuCUbhl_Fd-NmZrtwbmzuiF258rQ6xo33lyri3mMk1dI5uyys/embed?start=false&loop=false&delayms=10000`,
