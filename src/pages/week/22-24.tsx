@@ -94,7 +94,7 @@ const One = () => {
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vSZI5UT1F7iNc2EaNQuktz0lt0tMh8Jf2e5-l1JR-IKILf2JWRVdlgX_qv26kpZYOdWHm0znwLHhvFb/embed?start=false&loop=false&delayms=10000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vSKQwaQMjrOde2F-r0KX2K6eHbPbILWuCUbhl_Fd-NmZrtwbmzuiF258rQ6xo33lyri3mMk1dI5uyys/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vTM3EoiMvyb3EIWSZWd87YLO8kf8AnatHIZJn5lXTZwUCRURtraGadwRGkWJ6U4CHnhU1o12Ypy-3kG/embed?start=false&loop=false&delayms=10000`,
+         `https://docs.google.com/presentation/d/e/2PACX-1vTM3EoiMvyb3EIWSZWd87YLO8kf8AnatHIZJn5lXTZwUCRURtraGadwRGkWJ6U4CHnhU1o12Ypy-3kG/embed?start=false&loop=false&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/19VIpEFW-4IKfrQ1YCNt-rjnDc8vr4mA5?usp=drive_link"
       
