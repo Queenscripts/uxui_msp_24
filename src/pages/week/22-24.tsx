@@ -34,6 +34,8 @@ const One = () => {
       />
 
 
+
+     */}
 <CardNavigation
         moduleTitle="Weeks 22-24: Week 23"
         activitiesHeader="Final Group Project Work"
@@ -63,8 +65,6 @@ const One = () => {
       />
 
 
-
-     */}
 
 
 <br />
