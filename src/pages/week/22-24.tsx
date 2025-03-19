@@ -45,17 +45,17 @@ const One = () => {
           "23.1-01 Statement of Work Template",
           "23.1-02 Preparing Web Assets",
         ]}
-        // day2Activities={[
-        //   "https://drive.google.com/drive/folders/1qQJVY3vl86rdb7IAQngcfJIPuGLrHfHv",
-        //   "23.2-01. Peer Review",
-        // ]}
+        day2Activities={[
+          "https://drive.google.com/drive/folders/1qQJVY3vl86rdb7IAQngcfJIPuGLrHfHv",
+          "23.2-01. Peer Review",
+        ]}
         // day3Activities={[
         //   "https://drive.google.com/drive/folders/16t8fzSju4ywSMRQvS7lN3dEgeSqiZ8PT",
         //   "23.3-01 Peer Feedback",
         // ]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vQZBOeOnTJLVUPZQjgTaLS9XUH60VQ-P84M1s6IClPyRvJ2SJMK0gObq5TSUlsaARy9FCK4xUjosPw6/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vRA5GkW-ARR8QzKjCEZNg_b0UCea9EPkMPcfNLNEfnHRoDk4Me-JrSisoYFGDIHk2DGrM4gxIr0dmfj/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vRA5GkW-ARR8QzKjCEZNg_b0UCea9EPkMPcfNLNEfnHRoDk4Me-JrSisoYFGDIHk2DGrM4gxIr0dmfj/embed?start=false&loop=false&delayms=10000`,
           // `https://docs.google.com/presentation/d/e/2PACX-1vTLu8Ej86WqWb-wOJxTHTexxMDEvd7nnxRq8pjU8WkXNhguGydwVz4zEMj9EO_blzp5HUpDPrFs9VZW/embed?start=false&loop=false&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
