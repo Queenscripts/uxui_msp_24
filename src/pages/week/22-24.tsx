@@ -49,17 +49,17 @@ const One = () => {
           "https://drive.google.com/drive/folders/1qQJVY3vl86rdb7IAQngcfJIPuGLrHfHv",
           "23.2-01. Peer Review",
         ]}
-        // day3Activities={[
-        //   "https://drive.google.com/drive/folders/16t8fzSju4ywSMRQvS7lN3dEgeSqiZ8PT",
-        //   "23.3-01 Peer Feedback",
-        // ]}
+        day3Activities={[
+          "https://drive.google.com/drive/folders/16t8fzSju4ywSMRQvS7lN3dEgeSqiZ8PT",
+          "23.3-01 Peer Feedback",
+        ]}
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vQZBOeOnTJLVUPZQjgTaLS9XUH60VQ-P84M1s6IClPyRvJ2SJMK0gObq5TSUlsaARy9FCK4xUjosPw6/embed?start=false&loop=false&delayms=10000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vRA5GkW-ARR8QzKjCEZNg_b0UCea9EPkMPcfNLNEfnHRoDk4Me-JrSisoYFGDIHk2DGrM4gxIr0dmfj/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vTLu8Ej86WqWb-wOJxTHTexxMDEvd7nnxRq8pjU8WkXNhguGydwVz4zEMj9EO_blzp5HUpDPrFs9VZW/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vTLu8Ej86WqWb-wOJxTHTexxMDEvd7nnxRq8pjU8WkXNhguGydwVz4zEMj9EO_blzp5HUpDPrFs9VZW/embed?start=false&loop=false&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
-        // moduleChallengeLink="https://docs.google.com/document/d/1QIypg69qWY_YfNUsI20up4-66dlMZS5flMk3XjQblpg/edit?tab=t.0"
+        moduleChallengeLink="https://docs.google.com/document/d/108HPZ1JGy29xhsr0VHp_gLwplXOrUIMYwIb2Dm6HGdk/edit?tab=t.0"
         // challengeDeliverables="You and your team will kick off a redesign of an actual nonprofit website. (You&apos;ll continue to build on this project in upcoming Challenges.) "
  
       />
