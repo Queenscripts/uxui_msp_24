@@ -4,7 +4,7 @@ import React from "react";
 const One = () => {
   return (
     <ProtectedRoute>
-      {/* 
+      
       
      
       <br />
@@ -35,7 +35,7 @@ const One = () => {
 
 
 
-     */}
+    
 <CardNavigation
         moduleTitle="Weeks 22-24: Week 23"
         activitiesHeader="Final Group Project Work"
