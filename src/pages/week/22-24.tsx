@@ -27,7 +27,7 @@ const One = () => {
           `https://docs.google.com/presentation/d/e/2PACX-1vT0LAv3X1TcH5RMS6MKN9LE62TA6ewnJTkCYsCUBB9ZpIPhTBUBEwjBw5dOZ_kVJe9-jxCvVbbi6GrQ/embed?start=false&loop=false&delayms=10000`,
           `https://docs.google.com/presentation/d/e/2PACX-1vQx-Qm--3fOjSZBqtUZ6XXPhetfNq7SmDXzbsl-J2k8M9crA5a-ulVkkv-VyTFfoT4VOxTMT5kQbe-F/embed?start=false&loop=false&delayms=10000`,
         ]}
-        slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
+        slideURL="https://drive.google.com/drive/folders/1psJGkTk2Q4PLbWiOQ0whllD81ocdJ1D7?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/108HPZ1JGy29xhsr0VHp_gLwplXOrUIMYwIb2Dm6HGdk/edit?tab=t.0#heading=h.bv6msf9tz0bm"
         challengeDeliverables="For this final group project, you can design for any modality: websites, mobile app, Apple or Android watch, virtual reality, augmented reality, or voice interface. Your group will execute a high-fidelity clickable prototype (Figma) and code one to three responsive web pages through FE development (HTML/CSS/JavaScript), then present that process. "
  
