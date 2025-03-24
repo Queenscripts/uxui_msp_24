@@ -24,8 +24,8 @@ const One = () => {
 
         slidesLinks={[
           `https://docs.google.com/presentation/d/e/2PACX-1vRRbhZJ9f9Bo8Zhtw60t3WQTbTomSe3K57drpghmJGCGLLpITmfBcHb944rf1u_lHYeZG-2xBEtIeXd/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vT0LAv3X1TcH5RMS6MKN9LE62TA6ewnJTkCYsCUBB9ZpIPhTBUBEwjBw5dOZ_kVJe9-jxCvVbbi6GrQ/embed?start=false&loop=false&delayms=10000`,
-          // `https://docs.google.com/presentation/d/e/2PACX-1vQx-Qm--3fOjSZBqtUZ6XXPhetfNq7SmDXzbsl-J2k8M9crA5a-ulVkkv-VyTFfoT4VOxTMT5kQbe-F/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vT0LAv3X1TcH5RMS6MKN9LE62TA6ewnJTkCYsCUBB9ZpIPhTBUBEwjBw5dOZ_kVJe9-jxCvVbbi6GrQ/embed?start=false&loop=false&delayms=10000`,
+          `https://docs.google.com/presentation/d/e/2PACX-1vQx-Qm--3fOjSZBqtUZ6XXPhetfNq7SmDXzbsl-J2k8M9crA5a-ulVkkv-VyTFfoT4VOxTMT5kQbe-F/embed?start=false&loop=false&delayms=10000`,
         ]}
         slideURL="https://drive.google.com/drive/folders/1VMWKNN59HjlhIZt8fRXdNCDG02V-WbcS?usp=sharing"
         moduleChallengeLink="https://docs.google.com/document/d/108HPZ1JGy29xhsr0VHp_gLwplXOrUIMYwIb2Dm6HGdk/edit?tab=t.0#heading=h.bv6msf9tz0bm"
